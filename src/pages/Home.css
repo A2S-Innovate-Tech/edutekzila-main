@@ -1,0 +1,61 @@
+.Home-Container{
+    box-sizing: border-box;
+
+    padding: 30px;
+    background-color: #050F2C;
+    color: white;
+}
+
+.Blue-Light{
+    color: #00BCE4;
+}
+#Success-Stories{
+    font-size: 1.5rem;
+}
+.Home-Container-2{
+    margin-top: 50px;
+}
+
+.Home-Container-2-Heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Btn-Stories-Previous{
+    margin-top: 16px;
+    background-color: #050F2C;
+    color: #00BCE4;
+    border-radius: 50%;
+    border: 2px solid #00BCE4;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.Btn-Stories-Next{
+    margin-top: 16px;
+    background-color: #00BCE4;
+    color: #050F2C;
+    border-radius: 50%;
+    border: 2px solid #00BCE4;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.Stories-Container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 700px){
+    .Home-Container{
+        padding-right: 130px;
+    }
+
+}
+
+

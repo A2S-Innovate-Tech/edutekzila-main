@@ -1,0 +1,111 @@
+
+nav{
+    transition: 100ms ease-in-out;
+    background-color: #050F2C;
+    height: 70px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 1px solid #00BCE440;
+}
+
+.Nav-Collapse{
+    height: auto;
+    transition: 100ms ease-in-out;
+}
+
+.Nav-Icon{
+    height: 50px;
+    width: 50px;
+    margin: 12px 0 0 12px;
+}
+
+.Nav-Title{
+    float: left;
+    margin: 24px 0 0 0;
+    font-size: 24px;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+}
+
+.Nav-Title span{
+    color: #00BCE4;
+}
+
+.Nav-Items{
+    list-style: none;
+    overflow: auto;
+}
+
+.Nav-Items .Nav-Item{
+    margin: 16px;
+}
+
+
+.Nav-Item a{
+    text-decoration: none;
+    color: white;
+}
+
+.Nav-Item a:hover{
+    color: #00BCE4;
+}
+
+.Btn-Contact-Us{
+    margin: 12px 12px;
+    background-color: #00BCE4;
+    color: #050F2C;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.Btn-Toggle-Nav{
+    float: right;
+    margin: 16px 16px;
+    background-color: #00BCE440;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 700px){
+    nav{
+        width: calc(100% - 100px);
+        /* width: 90%; */
+    }
+
+    .Nav-Items{
+        float: right;
+    }
+    
+    .Nav-Items .Nav-Item{
+        margin: 12px;
+        float: left;
+    }
+    
+    
+    .Btn-Contact-Us{
+        margin: 6px 22px;
+        background-color: #00BCE4;
+        color: #050F2C;
+        padding: 8px 16px;
+        border-radius: 100px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        
+    }
+
+
+}

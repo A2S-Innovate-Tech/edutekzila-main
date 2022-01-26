@@ -10,7 +10,6 @@
     background: linear-gradient(149.27deg, rgba(0, 188, 228, 0.7) -6.57%, rgba(196, 196, 196, 0) 122.53%);
 }
 
-
 .Btn-Toggle-Drawer{
     background-color: #050F2C;
     color: white;
@@ -20,8 +19,8 @@
     cursor: pointer;
     height: 50px;
     width: 50px;
+    text-align: center;
 }
-
 
 .Btn-Comments{
     margin: 24px auto;
@@ -33,6 +32,22 @@
     height: 50px;
     width: 50px;
 }
+.Menu-Icon{
+    width: 25px;
+}
+
+.Chat-Icon{
+    width: 25px;
+}
+/* .Drawer-Open{
+
+    position: absolute;
+    width: 743px;
+    height: 576px;
+    
+    background: linear-gradient(138.84deg, rgba(5, 15, 44, 0.84) -8.76%, rgba(5, 15, 44, 0) 163.6%);
+    border-radius: 24px 0px 0px 24px;
+} */
 
 
 

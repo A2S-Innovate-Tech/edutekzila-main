@@ -1,17 +1,17 @@
 import "./Drawer.css";
 import { useState,useEffect } from "react";
-// import DrawerIcon from "../../logo.svg"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faComments , faTimes, faBars} from '@fortawesome/free-solid-svg-icons'
+import MenuIcon from "../../assets/images/menu_low.png"
+import ChatIcon from "../../assets/images/chat_low.png"
 
 
 const Drawer = () =>{
-    const [toggleMenu, setToggleMenu] = useState(false)
+    const [toggleDrawer, setToggleDrawer] = useState(false)
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
 
-    const toggleNav = () => {
-        setToggleMenu(!toggleMenu)
+    const toggleDrawerHandler = () => {
+        console.log("toggle Drawer");
+        setToggleDrawer(!toggleDrawer)
     }
 
     useEffect(() => {
@@ -30,14 +30,15 @@ const Drawer = () =>{
 
     return <>
         {
-            screenWidth>=700 &&
+            screenWidth>=900 &&
             <div className = "Drawer-Container">
-                <button onClick={toggleNav} className="Btn-Toggle-Drawer">
-                    <FontAwesomeIcon icon={ faBars } size="lg"/>
+                <button onClick={toggleDrawerHandler} className="Btn-Toggle-Drawer">
+                    <img src={MenuIcon} className="Menu-Icon" alt="menu" />
                 </button>
-                <button onClick={toggleNav} className="Btn-Comments">
-                    <FontAwesomeIcon icon={ faComments } size="lg"/>
+                <button onClick={toggleDrawerHandler} className="Btn-Comments">
+                <img src={ChatIcon} className="Chat-Icon" alt="chat" />
                 </button>
+                
             </div>
         }
     </>

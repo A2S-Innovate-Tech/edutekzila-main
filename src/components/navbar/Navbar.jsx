@@ -1,16 +1,16 @@
 import "./Navbar.css";
-import AppLogo from "../../logo.svg"
+import AppLogo from "../../assets/images/app_logo.png"
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars , faTimes} from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () =>{
-    const [toggleMenu, setToggleMenu] = useState(false)
+    const [toggleNav, settoggleNav] = useState(false)
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
 
-    const toggleNav = () => {
-        setToggleMenu(!toggleMenu)
+    const toggleNavHandler = () => {
+        settoggleNav(!toggleNav)
     }
 
     useEffect(() => {
@@ -27,18 +27,19 @@ const Navbar = () =>{
 
     }, [])
     
-    return <nav className={toggleMenu?"Nav-Collapse":"Nav"}>
+    return <nav className={toggleNav?"Nav-Collapse":"Nav"}>
         <img src={AppLogo} className="Nav-Icon" alt="logo" />
         
-        <a className="Nav-Title" href="/">Edu<span>Tek</span>Zila</a>
+        {/* <a className="Nav-Title" href="/">Edu<span>Tek</span>Zila</a> */}
+        
         {
-            (screenWidth < 700) &&
-             <button onClick={toggleNav} className="Btn-Toggle-Nav">
-                <FontAwesomeIcon icon={ toggleMenu ? faTimes : faBars} size="lg"/>
+            (screenWidth < 900) &&
+             <button onClick={toggleNavHandler} className="Btn-Toggle-Nav">
+                <FontAwesomeIcon icon={ toggleNav ? faTimes : faBars} size="lg"/>
             </button>
         }
         {
-            (screenWidth >= 700 || toggleMenu) &&
+            (screenWidth >= 900 || toggleNav) &&
                 <ul className="Nav-Items">
                     <li className="Nav-Item"><a href="/">Home</a></li>
                     <li className="Nav-Item"><a href="/">Portfolio</a></li>

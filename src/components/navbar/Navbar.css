@@ -16,23 +16,13 @@ nav{
 
 .Nav-Icon{
     height: 50px;
-    width: 50px;
     margin: 12px 0 0 12px;
 }
 
-.Nav-Title{
-    float: left;
-    margin: 24px 0 0 0;
-    font-size: 24px;
-    text-decoration: none;
-    font-style: italic;
-    color: white;
-    font-weight: bold;
-    position: absolute;
-}
-
-.Nav-Title span{
-    color: #00BCE4;
+.Nav-Icon:hover{
+    height: 50px;
+    margin: 12px 0 0 12px;
+    cursor: pointer;
 }
 
 .Nav-Items{
@@ -79,7 +69,7 @@ nav{
 
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 900px){
     nav{
         width: calc(100% - 100px);
         /* width: 90%; */

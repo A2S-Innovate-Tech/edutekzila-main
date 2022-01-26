@@ -6,22 +6,31 @@
     color: white;
 }
 
-.Blue-Light{
-    color: #00BCE4;
-}
-#Success-Stories{
-    font-size: 1.5rem;
-}
-.Home-Container-2{
-    margin-top: 50px;
+.P1{
+    font-size: 14px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+    
 }
 
-.Home-Container-2-Heading{
+.Home-Container p{
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.Home-Heading{
+    margin-bottom: 0;
+}
+
+.Home-Sub-Container{
+    margin-top: 60px;
+}
+
+/* SUCCESS STORIES */
+.Success-Stories-Heading{
     display: flex;
     justify-content: space-between;
 }
-
-
 .Btn-Stories-Previous{
     margin-top: 16px;
     background-color: #050F2C;
@@ -51,11 +60,48 @@
 }
 
 
-@media screen and (min-width: 700px){
+/* WHO WE ARE */
+.Who-We-Are .Professional-Experience{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Professional-Experience .Info{
+    display: flex;
+    margin-top: 22px;
+    margin-left: 8px;
+}
+.Professional-Experience .Info img{
+    height: 40px;
+}
+.Professional-Experience .Info .Text{
+    margin-left: 12px;
+}
+.Professional-Experience .Info .Text h3{
+    margin-top: 0;
+}
+/* .Professional-Experience .Info .Text p{
+    font-size: 12px;
+} */
+
+/* OUR EXPERTISE */
+.Our-Expertise .Techs{
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width: 900px){
     .Home-Container{
         padding-right: 130px;
     }
-
+  
+    .Who-We-Are .Info img{
+        height: 44px;
+    }
 }
 
 

@@ -1,4 +1,5 @@
-// import './App.css';
+import './App.css';
+import './Global.css';
 import Navbar from './components/navbar/Navbar';
 import Drawer from './components/drawer/Drawer.jsx';
 import Home from './pages/Home';
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Drawer />
+        
         <div style={{height:"70px", backgroundColor: "#050F2C"}}></div>
         <Routes>
           {/* <Route exact path="/" element={<Drawer />} /> */}

@@ -1,8 +1,6 @@
 import './ExpertiseTech.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
-function ExperticeTech(props) {
+function ExpertiseTech(props) {
   return (
     <div className="Expertise-Card">
         <img src={props.img} alt="tech" />
@@ -11,4 +9,4 @@ function ExperticeTech(props) {
   );
 }
 
-export default ExperticeTech;
+export default ExpertiseTech;

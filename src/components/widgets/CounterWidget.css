@@ -1,0 +1,15 @@
+
+.Counter-Widget-Container{
+    display: flex;
+    margin-top: 22px;
+    margin-left: 8px;
+}
+.Counter-Widget-Container img{
+    height: 40px;
+}
+.Counter-Widget-Container .Label{
+    margin-left: 12px;
+}
+.Counter-Widget-Container .Label h3{
+    margin-top: 0;
+}

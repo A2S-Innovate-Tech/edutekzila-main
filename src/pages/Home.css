@@ -1,6 +1,6 @@
+
 .Home-Container{
     box-sizing: border-box;
-
     padding: 30px;
     background-color: #050F2C;
     color: white;
@@ -67,33 +67,62 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.Professional-Experience .Info{
-    display: flex;
-    margin-top: 22px;
-    margin-left: 8px;
-}
-.Professional-Experience .Info img{
-    height: 40px;
-}
-.Professional-Experience .Info .Text{
-    margin-left: 12px;
-}
-.Professional-Experience .Info .Text h3{
-    margin-top: 0;
-}
-/* .Professional-Experience .Info .Text p{
-    font-size: 12px;
-} */
+
 
 /* OUR EXPERTISE */
 .Our-Expertise .Techs{
     text-align: center;
-
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
+
+/* OUR Services */
+.Service-Category{
+    display: flex;
+}
+.Service-Category .fa-Circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 22px;
+    margin-right: 16px;
+    background-color: #050F2C;
+    color: #00BCE4;
+    border-radius: 50%;
+    border: 3px solid #00BCE4;
+    height: 24px;
+    width: 24px;
+}
+.Service-Category p{
+    font-size: 20px;
+}
+
+/* NOT FOR ONE */
+.Not-For-One .Platforms-Container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* OUR WORK */
+.Our-Work .Youtube-Player{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+.Our-Work .Work-Info{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 @media screen and (min-width: 900px){
     .Home-Container{
         padding-right: 130px;
@@ -102,6 +131,17 @@
     .Who-We-Are .Info img{
         height: 44px;
     }
+
+}
+
+
+@media screen and (min-width: 700px){
+    .Our-Work .Youtube-Player{
+        width: 700px;
+        height: 360px;
+    }
+
+    
 }
 
 

@@ -1,18 +1,20 @@
 import "./Home.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faArrowLeft, faCircle} from '@fortawesome/free-solid-svg-icons'
 import StoryImg from "../assets/images/story_img.png";
 import StoryCard from "../components/homeComponents/StoryCard";
 import UsersImg1 from "../assets/images/users_1.png";
 import UsersImg2 from "../assets/images/users_2.png";
-import AngularjsImg from "../assets/images/techs/angularjs.png";
-import DockerImg from "../assets/images/techs/docker.png";
-import FlutterImg from "../assets/images/techs/flutter.png";
-import KuberneteImg from "../assets/images/techs/kubernete.png";
-import ReactjsImg from "../assets/images/techs/reactjs.png";
-import VuejsImg from "../assets/images/techs/vuejs.png";
-import ExperticeTech from "../components/homeComponents/ExpertiseTech";
-
+import ActiveProjectsImg from "../assets/images/ourWork/active_projects.png";
+import CompletedProjectsImg from "../assets/images/ourWork/completed_projects.png";
+import HappyClientsImg from "../assets/images/ourWork/happy_clients.png";
+import expertiseTechs from "../expertiseTechs.js"
+import ExpertiseTech from "../components/homeComponents/ExpertiseTech";
+import ourServices from "../ourServices.js"
+import ServiceDropdown from "../components/homeComponents/ServiceDropdown.jsx";
+import platforms from "../platforms.js"
+import Platform from "../components/homeComponents/Platform";
+import CounterWidget from "../components/widgets/CounterWidget";
 const Home = () =>{
     const stories = [
         {
@@ -82,23 +84,8 @@ const Home = () =>{
             <p className="P1">The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, MindInventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
             
             <div className="Professional-Experience">
-                <div className="Info">
-                    <img src={UsersImg1} className="Users-Icon-1" alt="chat" />
-                    <div className="Text">
-                        <h3 className = "Margin-B0 Light-Blue">30+</h3>
-                        <p className="P1">Professionals</p>
-                    </div>
-                </div>
-
-                <div className="Info">
-                    <img src={UsersImg2} className="Users-Icon-1" alt="chat" />
-                    <div className="Text">
-                        <h3 className = "Margin-B0 Light-Blue">2+</h3>
-                        <p className="P1">Years Experience</p>
-                    </div>
-                </div>
-
-                
+                <CounterWidget img={UsersImg1} label="Professionals" count="30+"/>
+                <CounterWidget img={UsersImg2} label="Years Experience" count="2+"/>
             </div>
         </div>
 
@@ -109,26 +96,72 @@ const Home = () =>{
                 <span className = "Light-Blue">Our</span> Expertise
             </h2>
             <div className="Techs">
-                <ExperticeTech img={VuejsImg} title="Vuejs"/>
-                <ExperticeTech img={ReactjsImg} title="Reactjs"/>
-                <ExperticeTech img={AngularjsImg} title="Angularjs"/>
-                <ExperticeTech img={FlutterImg} title="Flutter"/>
-                <ExperticeTech img={KuberneteImg} title="Kubernete"/>
-                <ExperticeTech img={DockerImg} title="Docker"/>
+                {
+                    expertiseTechs.map((tech)=>{
+                        return <ExpertiseTech img={tech.img} title={tech.title}/>
+                    })
+                }
             </div>
         </div>
 
 
-        {/* Our Services*/}
-        <div className="Home-Sub-Container Who-We-Are">
+        {/* OUR SERVICES*/}
+        <div className="Home-Sub-Container Our-Services">
             <h2 className="Margin-B0">
                 <span className = "Light-Blue">Our</span> Services
             </h2>
+            {/* ALL SERVICES */}
+            {
+                ourServices.map((services)=>{
+                    
+                    return <div>
+                        <div className="Service-Category">
+                            <div className = "fa-Circle">
+                                <FontAwesomeIcon icon={ faCircle } size="sm"/>
+                            </div>
+                            <p >{services.category}</p>
+                        </div> 
+                        {
+                            services.items.map((service)=>{
+                                return <ServiceDropdown key={service.id}  service = {service}/>
+                            })
+                        }
+                    </div>
+                })
+            }
+        </div>
+        
 
-            <div>
-
+        {/* NOT FOR ONE (MULTIPLE PLATFORMS)*/}
+        <div className="Home-Sub-Container Not-For-One">
+            <h2 className="Margin-B0">
+                <span className = "Light-Blue">Not</span> For One
+            </h2>
+            <p>We can design for variety of platforms whether it is computers, smart watches, smartphones, wearables and many more .....</p>
+            <div className="Platforms-Container">
+                {
+                    platforms.map((platform)=>{
+                        return <Platform key={platform.title} platform={platform}/>
+                    })
+                }
             </div>
-            
+        </div>
+
+
+         {/* OUR WORK */}
+         <div className="Home-Sub-Container Our-Work">
+            <h2 >
+                <span className = "Light-Blue">Our</span> Work
+            </h2>
+            <iframe className="Youtube-Player"
+                src="https://www.youtube.com/embed/tgbNymZd7vqY">
+            </iframe>
+            <div className="Work-Info">
+                <CounterWidget img={ActiveProjectsImg} label="Active Projects" count="12"/>
+                <CounterWidget img={CompletedProjectsImg} label="Completed Projects" count="67"/>
+                <CounterWidget img={HappyClientsImg} label="Happy Clients" count="200+"/>
+            </div>
+           
         </div>
 
 

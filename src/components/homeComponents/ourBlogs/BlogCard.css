@@ -1,18 +1,18 @@
 
-.Blog-Container{
+.Blog-Card{
     display: flex;
     align-items: center;
     margin-top: 22px;
     margin-left: 8px;
 }
-.Blog-Container img{
+.Blog-Card img{
     height: 60px;
     margin-right: 20px;
 }
-.Blog-Container p{
+.Blog-Card p{
     text-align: left;
 }
-.Blog-Container .Title{
+.Blog-Card .Title{
     margin-bottom: 8px;
     font-size: 20px;
 }
@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 900px){
     
-    .Blog-Container img{
+    .Blog-Card img{
         height: 80px;
         margin-right: 30px;
     }

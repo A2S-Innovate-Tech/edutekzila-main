@@ -15,7 +15,7 @@ const Home = () =>{
     return <div>
         <div className="Home-Container">
             {/* WE WORK ON 4D PROCESS         */}
-            <div className="Home-Sub-Container Work-Process">
+            <div className="Home-Sub-Container Top-Heading">
                 <h2>
                     WE, WORK ON 4D PROCESS
                 </h2>

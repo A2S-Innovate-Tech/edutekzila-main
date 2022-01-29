@@ -1,19 +1,6 @@
 import './ContactForm.css';
 
-import { useState,useEffect } from 'react';
-
 function ContactForm() {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  
-    useEffect(() => {
-        const changeWidth = () => {
-            setScreenWidth(window.innerWidth);
-        }
-        window.addEventListener('resize', changeWidth)
-        return () => {
-            window.removeEventListener('resize', changeWidth)
-        }
-    }, [])
     
     return (
         <form className="Contact-Form">

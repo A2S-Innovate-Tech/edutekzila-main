@@ -11,7 +11,7 @@ function OurExpertise() {
             <div className="Techs">
                 {
                     expertiseTechs.map((tech)=>{
-                        return <ExpertiseTech img={tech.img} title={tech.title}/>
+                        return <ExpertiseTech key={tech.title} img={tech.img} title={tech.title}/>
                     })
                 }
             </div>

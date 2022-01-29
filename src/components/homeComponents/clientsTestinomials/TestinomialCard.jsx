@@ -6,7 +6,7 @@ import CommaDownWhite from "../../../assets/images/commas/comma_down_white.png";
 
 function TestinomialCard({testinomial}) {
   return (
-    <div className="Testinomial-Container">
+    <div className="Testinomial-Card">
         <div className="Commas Commas-Up">
             <img src={CommaUpBlue} alt="comma" />
             <img src={CommaUpWhite} alt="comma" />

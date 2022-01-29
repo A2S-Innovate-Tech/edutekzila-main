@@ -11,8 +11,7 @@ function ServiceDropdown({service}) {
   return (
     <div className="Service-Dropdown" 
       unselectable="on"
-      onselectstart="return false;" 
-      onmousedown="return false;"
+      onMouseDown={()=>false}
     >
         <div className="Dropdown" onClick={handleToggleDropdown}>
           <div className="Title">{service.title}</div>

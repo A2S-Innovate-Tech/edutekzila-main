@@ -3,6 +3,7 @@ import './Global.css';
 import Navbar from './components/navbar/Navbar';
 import Sidebar from './components/sidebar/Sidebar.jsx';
 import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
 import { useState,useEffect } from "react";
 
 import {
@@ -35,6 +36,8 @@ function App() {
         <div style={{height:"70px", backgroundColor: "#050F2C"}}></div>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/portfolio" element={<Portfolio />} />
+          <Route exact path="/blogs" element={<Portfolio />} />
         </Routes>
       </Router>
       

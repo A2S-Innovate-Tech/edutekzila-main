@@ -1,0 +1,91 @@
+.Project-Card{
+    margin: 16px;
+    padding: 20px 30px;
+    position: relative;
+    box-sizing: border-box;
+    background: linear-gradient(149.27deg, #00BCE4 -6.57%, rgba(0, 188, 228, 0.3) 122.53%);
+    text-align: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #050f2c;
+    width: 80vw;
+    max-width: 600px;
+}
+
+.Project-Card-Gradient-2{
+    background: linear-gradient(149.27deg, #FFFFFF -6.57%, rgba(255, 255, 255, 0.3) 122.53%);
+}
+
+.Project-Card div{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 30px; */
+}
+
+.Project-Card img{
+    margin: auto;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    height: 250px; 
+    object-fit: fill;
+}
+
+.Project-Card .Title{
+    font-weight:500;
+    font-size: 26px;
+}
+.Project-Card .Category{
+    font-weight: bold;
+    font-size: 16px;
+}
+.Project-Card .Description{
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.Project-Card .Btn-Project-View{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-bottom-right-radius: 16px ;
+    border-top-left-radius: 14px ;
+}
+
+
+.Project-Card .Btn-Project-View:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1219px){
+    .Project-Card .Title{
+        margin-top: 0;
+    }
+    .Project-Card{
+        flex-direction: row;
+        width: 70vw;
+    }
+    .Project-Card div{
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1220px){
+    .Project-Card .Title{
+        margin-top: 0;
+    }
+    .Project-Card{
+        flex-direction: row;
+        width: 40vw;
+    }
+    .Project-Card div{
+        margin-left: 30px;
+    }
+}

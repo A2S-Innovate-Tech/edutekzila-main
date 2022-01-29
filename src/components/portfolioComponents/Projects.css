@@ -1,0 +1,41 @@
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.More-Projects-Container{
+    align-items: center;
+    margin: 16px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #00BCE4;
+    color:white;
+    width: 80vw;
+    max-width: 600px;
+    font-size: 24px;
+    height: 280px;
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 1219px){
+    .More-Projects-Container{
+        flex-direction: row;
+        width: 70vw;
+        height: 280px;
+    }
+    
+}
+
+@media screen and (min-width: 1220px){
+    .More-Projects-Container{
+        flex-direction: row;
+        width: 40vw;
+        height: auto;
+    }
+    
+}

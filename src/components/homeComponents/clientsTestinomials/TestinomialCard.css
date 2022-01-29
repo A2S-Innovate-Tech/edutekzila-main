@@ -1,4 +1,4 @@
-.Testinomial-Container{
+.Testinomial-Card{
     margin: 12px;
     padding:12px 12px;
     padding-top: 20px;
@@ -11,18 +11,18 @@
 }
 
 
-.Testinomial-Container .Commas-Up{
+.Testinomial-Card .Commas-Up{
     display: flex;
 }
-.Testinomial-Container .Commas-Down{
+.Testinomial-Card .Commas-Down{
     display: flex;
     justify-content:flex-end;
 }
-.Testinomial-Container .Testinomial-Text{
+.Testinomial-Card .Testinomial-Text{
     padding: 0 12px;
     text-align: justify;
 }
-.Testinomial-Container .Client-Profile{
+.Testinomial-Card .Client-Profile{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -47,13 +47,13 @@
 
 
 @media screen and (min-width: 700px) and (max-width : 1099px){
-    .Testinomial-Container{
+    .Testinomial-Card{
         width: 33vw;
     }
 }
 
 @media screen and (min-width: 1100px) {
-    .Testinomial-Container{
+    .Testinomial-Card{
         width: 24vw;
     }
 }

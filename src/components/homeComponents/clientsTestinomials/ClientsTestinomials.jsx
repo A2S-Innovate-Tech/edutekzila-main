@@ -23,7 +23,7 @@ function ClientsTestinomials() {
             <div className="Testimonials-Container">
                 {
                     clientsTestinomials.map((testinomial=>{
-                        return <TestinomialCard key={testinomial.title} testinomial={testinomial}/>
+                        return <TestinomialCard key={testinomial.id} testinomial={testinomial}/>
                     }))
                 }
             </div>

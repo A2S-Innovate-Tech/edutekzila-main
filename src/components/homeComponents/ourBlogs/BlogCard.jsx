@@ -2,7 +2,7 @@ import './BlogCard.css';
 
 function BlogCard({blog}) {
   return (
-    <div className="Blog-Container">
+    <div className="Blog-Card">
         <img src={blog.img} alt="blog" />
         <div>
             <p className="Title Light-Blue Margin-B0 Margin-T0">{blog.title}</p>

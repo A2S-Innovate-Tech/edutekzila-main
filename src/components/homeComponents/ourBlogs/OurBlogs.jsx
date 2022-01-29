@@ -11,7 +11,7 @@ function OurBlogs() {
             <div className="Blogs-Container">
                 {
                     ourBlogs.map((blog)=>{
-                        return <BlogCard blog={blog}/>
+                        return <BlogCard key={blog.id} blog={blog}/>
                     })
                 }
             </div> 

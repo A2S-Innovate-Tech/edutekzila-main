@@ -11,7 +11,7 @@ function OurWork() {
             <h2 >
                 <span className = "Light-Blue">Our</span> Work
             </h2>
-            <iframe className="Youtube-Player"
+            <iframe className="Youtube-Player" title="video"
                 src="https://www.youtube.com/embed/tgbNymZd7vqY">
             </iframe>
             <div className="Work-Info">

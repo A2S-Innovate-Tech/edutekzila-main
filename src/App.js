@@ -27,7 +27,7 @@ function App() {
   }, [])
   
   return (
-    <div>
+    <div className="App">
       <Router>
         {!toggleSidebar&&<Navbar />}
         <Sidebar setToggleSidebar={setToggleSidebar} toggleSidebar={toggleSidebar} screenWidth={screenWidth} />

@@ -1,0 +1,49 @@
+.Contact-Form{
+    /* flex-grow: 1; */
+    background-color: #050F2C;
+    border-radius: 16px;
+    text-align: center;
+    padding: 6px 30px;
+    max-width: 600px;
+    margin: auto;
+
+}
+.Contact-Form .Text-Field, .Contact-Form .Btn-Submit{
+    box-sizing: border-box;
+    display: block;
+    margin: 16px auto;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    outline: none;
+}
+.Contact-Form .Message{
+    height: 150px;
+    resize: none;
+}
+
+.Contact-Form .Btn-Submit{
+    background-color: #00BCE4;
+    font-weight: bold;
+    font-size: 18px;
+    color: #050F2C;
+}
+.Contact-Form .Btn-Submit:hover{
+    cursor: pointer;
+    background-color: #22d6ff;
+    transform: scale(1.01);
+    transition-duration: 30ms;
+}
+.Contact-Form div{
+    display: flex;
+    margin: 0;
+}
+
+.Contact-Form .Mobile{
+    margin: 0 6px 0 0;
+}
+
+.Contact-Form .Company{
+    margin: 0 0 0 6px;
+}

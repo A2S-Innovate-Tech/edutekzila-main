@@ -1,0 +1,40 @@
+
+/* CLIENTS TESTINOMIALS */
+.Clients-Testimonials-Heading{
+    display: flex;
+    justify-content: space-between;
+}
+.Btn-Testinomials-Previous{
+    margin-top: 16px;
+    background-color: #050F2C;
+    color: #00BCE4;
+    border-radius: 50%;
+    border: 2px solid #00BCE4;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.Btn-Testinomials-Next{
+    margin-top: 16px;
+    background-color: #00BCE4;
+    color: #050F2C;
+    border-radius: 50%;
+    border: 2px solid #e2f3f7;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.Testimonials-Container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Clients-Testimonials a{
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    color: #32768F;
+}
+

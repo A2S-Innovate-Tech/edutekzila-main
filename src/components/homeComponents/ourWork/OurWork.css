@@ -1,0 +1,23 @@
+
+/* OUR WORK */
+.Our-Work .Youtube-Player{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+.Our-Work .Work-Info{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+@media screen and (min-width: 700px){
+    .Our-Work .Youtube-Player{
+        width: 700px;
+        height: 360px;
+    }
+}

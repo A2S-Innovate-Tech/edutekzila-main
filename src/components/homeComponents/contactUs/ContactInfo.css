@@ -1,0 +1,27 @@
+
+.Contact-Info-Grid{
+    display: grid;
+    grid-template-columns: 30px auto;
+
+}
+.Contact-Info-Grid .Grid-Item{
+    text-align: left;
+    padding:12px 0;
+    
+}
+.Contact-Info-Grid .Grid-Item h3{
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.Contact-Info-Grid .Grid-Item p{
+    margin-top: 6px;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.Contact-Info-Grid .Grid-Item .Social-Media{
+    width: 24px;
+    margin: 6px 14px 0 0;
+} 

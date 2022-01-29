@@ -1,0 +1,7 @@
+/* NOT FOR ONE */
+.Not-For-One .Platforms-Container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

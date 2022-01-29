@@ -1,0 +1,32 @@
+/* SUCCESS STORIES */
+.Success-Stories-Heading{
+    display: flex;
+    justify-content: space-between;
+}
+.Btn-Stories-Previous{
+    margin-top: 16px;
+    background-color: #050F2C;
+    color: #00BCE4;
+    border-radius: 50%;
+    border: 2px solid #00BCE4;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.Btn-Stories-Next{
+    margin-top: 16px;
+    background-color: #00BCE4;
+    color: #050F2C;
+    border-radius: 50%;
+    border: 2px solid #00BCE4;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.Success-Stories .Stories-Container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}

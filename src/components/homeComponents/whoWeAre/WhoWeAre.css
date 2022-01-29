@@ -1,0 +1,7 @@
+/* WHO WE ARE */
+.Who-We-Are .Professional-Experience{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

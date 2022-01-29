@@ -1,0 +1,21 @@
+/* OUR Services */
+.Service-Category{
+    display: flex;
+}
+.Service-Category .fa-Circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 22px;
+    margin-right: 16px;
+    background-color: #050F2C;
+    color: #00BCE4;
+    border-radius: 50%;
+    border: 3px solid #00BCE4;
+    height: 24px;
+    width: 24px;
+}
+.Service-Category p{
+    font-size: 20px;
+}

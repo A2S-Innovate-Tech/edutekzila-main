@@ -1,0 +1,8 @@
+
+/* OUR EXPERTISE */
+.Our-Expertise .Techs{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

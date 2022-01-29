@@ -1,0 +1,8 @@
+/* OUR BLOGS */
+.Our-Blogs a{
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    color: #32768F;
+}

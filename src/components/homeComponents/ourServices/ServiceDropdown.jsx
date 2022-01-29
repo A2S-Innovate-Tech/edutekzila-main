@@ -9,7 +9,11 @@ function ServiceDropdown({service}) {
     setToggleDropdown(!toggleDropdown)
   }
   return (
-    <div className="Service-Dropdown" >
+    <div className="Service-Dropdown" 
+      unselectable="on"
+      onselectstart="return false;" 
+      onmousedown="return false;"
+    >
         <div className="Dropdown" onClick={handleToggleDropdown}>
           <div className="Title">{service.title}</div>
           <div className="Icon">

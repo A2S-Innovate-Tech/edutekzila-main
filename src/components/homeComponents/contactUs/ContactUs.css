@@ -1,0 +1,80 @@
+
+/* CONTACT US */
+.Contact-Us{
+    background-color: #00BCE4;
+    padding: 30px;
+    color: #050F2C;
+    display: flex;
+    justify-content: space-between;
+}
+.Contact-Us-Mobile{
+    flex-direction: column;
+    text-align: center;
+}
+
+.Contact-Us h1{
+    margin-bottom: 32px;
+}
+
+.Contact-Us .Info-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.Info-Container .Copyright-Policy{
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+.Contact-Info-Mobile{
+    display: flex;
+    
+    margin: 30px auto;
+    align-items: center;
+
+}
+
+.Info-Container .Contact-Info-Mobile .Google-Map{
+    margin-right: 20px;
+    height: 300px;
+}
+
+.Contact-Us .Form-Container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Google-Map{
+    height: 400px;
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1190px){
+    .Contact-Us{
+        padding: 30px 60px;
+        padding-right: 160px;
+    }
+
+}
+
+
+@media screen and (min-width: 1220px){
+    .Contact-Us{
+        padding: 30px 60px;
+        padding-right: 130px;
+        /* flex-wrap: wrap; */
+    }
+
+    .Contact-Us .Form-Container {
+        margin: 0 50px;
+    }
+
+    .Contact-Us h1{
+        margin-bottom: 8px;
+    }
+
+
+}

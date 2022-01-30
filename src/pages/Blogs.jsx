@@ -1,9 +1,7 @@
 import "./Blogs.css";
 
-import { useState } from "react";
 
 const Blogs = () =>{
-    const [projectCategory,setProjectCategory] = useState("All");
 
     return <div>
         <div className="Blogs-Container">

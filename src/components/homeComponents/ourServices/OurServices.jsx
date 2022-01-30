@@ -14,7 +14,7 @@ function OurServices() {
             {
                 ourServices.map((services)=>{
                     
-                    return <div>
+                    return <div key={services.category}>
                         <div className="Service-Category">
                             <div className = "fa-Circle">
                                 <FontAwesomeIcon icon={ faCircle } size="sm"/>

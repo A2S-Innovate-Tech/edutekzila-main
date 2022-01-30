@@ -1,7 +1,7 @@
 import './ContactUs.css';
 
 import GoogleMapImg from "../../../assets/images/google_map.png";
-import { useState,useEffect,useContext } from 'react';
+import { useContext } from 'react';
 import ContactForm from './ContactForm';
 import ContactInfo from './ContactInfo';
 import ScreenWidthContext from '../../../context/ScreenWidthContext';

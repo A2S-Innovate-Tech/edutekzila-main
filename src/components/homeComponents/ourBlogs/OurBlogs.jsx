@@ -8,13 +8,11 @@ function OurBlogs() {
             <h2 >
                 <span className = "Light-Blue">Our</span> Blogs
             </h2>
-            <div className="Blogs-Container">
-                {
-                    ourBlogs.map((blog)=>{
-                        return <BlogCard key={blog.id} blog={blog}/>
-                    })
-                }
-            </div> 
+            {
+                ourBlogs.map((blog)=>{
+                    return <BlogCard key={blog.id} blog={blog}/>
+                })
+            }
             <a className="View-All" href="/">View all +</a>           
         </div>
     );

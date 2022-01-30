@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import { useState,useContext } from "react";
+import { useContext } from "react";
 import ScreenWidthContext from "../../context/ScreenWidthContext";
 import MenuIcon from "../../assets/images/menu_low.png"
 import ChatIcon from "../../assets/images/chat_low.png"

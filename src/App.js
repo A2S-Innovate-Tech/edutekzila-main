@@ -12,6 +12,7 @@ import {
   Route,
 } from "react-router-dom"
 import ScreenWidthState from './api/ScreenWidthState';
+import Blogs from './pages/Blogs';
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/portfolio" element={<Portfolio />} />
-            <Route exact path="/blogs" element={<Portfolio />} />
+            <Route exact path="/blogs" element={<Blogs />} />
           </Routes>
         </Router>
       </ScreenWidthState>

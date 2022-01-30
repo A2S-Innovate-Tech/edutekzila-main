@@ -1,30 +1,21 @@
 import './ContactUs.css';
 
 import GoogleMapImg from "../../../assets/images/google_map.png";
-import { useState,useEffect } from 'react';
+import { useState,useEffect,useContext } from 'react';
 import ContactForm from './ContactForm';
 import ContactInfo from './ContactInfo';
+import ScreenWidthContext from '../../../context/ScreenWidthContext';
 
 function ContactUs() {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  
-    useEffect(() => {
-        const changeWidth = () => {
-            setScreenWidth(window.innerWidth);
-        }
-        window.addEventListener('resize', changeWidth)
-        return () => {
-            window.removeEventListener('resize', changeWidth)
-        }
-    }, [])
-    
+    const screenWidthState = useContext(ScreenWidthContext);
+   
     return (
         <div>
             {
-                screenWidth<1220
+                screenWidthState.screenWidth<1220
                 ?  <div className="Contact-Us  Contact-Us-Mobile">
                         {
-                            screenWidth<1220 && <h1>
+                            screenWidthState.screenWidth<1220 && <h1>
                                 CONTACT US
                             </h1>
                         }

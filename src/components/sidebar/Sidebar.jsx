@@ -1,15 +1,18 @@
 import "./Sidebar.css";
+import { useState,useContext } from "react";
+import ScreenWidthContext from "../../context/ScreenWidthContext";
 import MenuIcon from "../../assets/images/menu_low.png"
 import ChatIcon from "../../assets/images/chat_low.png"
 
-const Sidebar = ({toggleSidebar,setToggleSidebar, screenWidth}) =>{
+const Sidebar = ({toggleSidebar,setToggleSidebar}) =>{
+    const screenWidthState = useContext(ScreenWidthContext);
     
     const toggleSidebarHandler = () => {
         setToggleSidebar(value=>!value)
     }
     return <>
         {
-            screenWidth>=900 &&
+            screenWidthState.screenWidth>=900 &&
             <div className="Sidebar">
             {   toggleSidebar
                 ?   <div className = "Open">

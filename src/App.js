@@ -17,11 +17,12 @@ import Blogs from './pages/Blogs';
 
 function App() {
   const [toggleSidebar, setToggleSidebar] = useState(false);
+  console.log(process.env.PUBLIC_URL);
 
   return (
     <div className="App">
       <ScreenWidthState>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           {!toggleSidebar&&<Navbar />}
           <Sidebar setToggleSidebar={setToggleSidebar} toggleSidebar={toggleSidebar}/>
           

@@ -4,39 +4,74 @@
     padding-bottom: 60px;
     color: white;
     background-color: white;
-}
-
-.P1{
-    font-size: 14px;
-    margin: 0;
-    color: rgba(255, 255, 255, 0.7);
-    
-}
-
-.Blogs-Container p{
-    line-height: 1.7;
-    text-align: justify;
-}
-
-.Blogs-Heading{
-    margin-bottom: 0;
+    /* text-align: center; */
 }
 
 .Blogs-Sub-Container{
     margin-top: 60px;
 }
 
+.Blogs-Sub-Container .Img-Top{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
 
-/* border: 1px solid rgba(255, 255, 255, 0.25); */
-
-
-@media screen and (min-width: 900px){
-    .Blogs-Container{
-        padding-right: 130px;
-    }
-
+.Blogs-Sub-Container .Blog-Title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #050F2C;
 }
 
 
+.Blogs-Sub-Container .Blog-Description{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgba(5, 15, 44, 0.7);
+    text-align: justify;
+
+}
+
+.Blogs-Sub-Container .Blog-Details{
+    font-weight:500;
+    color: rgba(5, 15, 44, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Blogs-Sub-Container .Blog-Details > *{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.Blogs-Sub-Container .Blog-Details > p{
+    margin-left: 40px;
+    text-align: right;
+}
 
 
+/* 
+@media screen and (min-width: 900px) and (max-width: 1259px){
+    .Blogs-Container{
+        padding-right: 130px;
+    }
+} */
+
+@media screen and (min-width: 900px) {
+    .Blogs-Container{
+        padding-right: 130px;
+    }
+}
+
+@media screen and (min-width: 1260px){
+    .Blogs-Sub-Container{
+        display: flex;
+    }
+    
+    .Blogs-Sub-Container div:first-child{
+        width: 60%;
+        margin-right: 30px;
+    }
+    
+}

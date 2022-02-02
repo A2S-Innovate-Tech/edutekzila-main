@@ -17,7 +17,6 @@ import Blogs from './pages/Blogs';
 
 function App() {
   const [toggleSidebar, setToggleSidebar] = useState(false);
-  console.log(process.env.PUBLIC_URL);
 
   return (
     <div className="App">
@@ -26,7 +25,7 @@ function App() {
           {!toggleSidebar&&<Navbar />}
           <Sidebar setToggleSidebar={setToggleSidebar} toggleSidebar={toggleSidebar}/>
           
-          <div style={{height:"70px", backgroundColor: "#050F2C"}}></div>
+          {/* <div style={{height:"70px", backgroundColor: "#050F2C"}}></div> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/portfolio" element={<Portfolio />} />

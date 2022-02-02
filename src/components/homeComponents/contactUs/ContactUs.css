@@ -52,14 +52,14 @@
 }
 
 
-@media screen and (min-width: 900px) and (max-width: 1219px){
+@media screen and (min-width: 900px) and (max-width: 1259px){
     .Contact-Us{
         padding: 30px 60px;
         padding-right: 160px;
     }
 }
 
-@media screen and (min-width: 1220px){
+@media screen and (min-width: 1260px){
     .Contact-Us{
         padding: 30px 60px;
         padding-right: 130px;

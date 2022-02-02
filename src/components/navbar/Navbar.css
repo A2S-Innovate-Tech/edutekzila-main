@@ -2,7 +2,7 @@
 nav{
     transition: 100ms ease-in-out;
     background-color: #050F2C;
-    height: 70px;
+    /* height: 70px; */
     position: fixed;
     z-index: 2;
     width: 100%;

@@ -22,7 +22,7 @@
     
 }
 
-@media screen and (min-width: 600px) and (max-width: 1219px){
+@media screen and (min-width: 600px) and (max-width: 1259px){
     .More-Projects-Container{
         flex-direction: row;
         width: 70vw;
@@ -31,7 +31,7 @@
     
 }
 
-@media screen and (min-width: 1220px){
+@media screen and (min-width: 1260px){
     .More-Projects-Container{
         flex-direction: row;
         width: 40vw;

@@ -14,10 +14,14 @@
     margin-bottom: 0;
 }
 
+.Portfolio-Sub-Container{
+    margin-top: 70px;
+}
 
 
 @media screen and (min-width: 900px){
     .Portfolio-Container{
+        padding: 40px;
         padding-right: 130px;
     }
 

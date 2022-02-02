@@ -1,9 +1,14 @@
 .Home-Container{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 30px;
     padding-bottom: 60px;
     color: white;
 }
+
+.Home-Container .Top-Heading {
+    font-size: 5vw;
+}
+
 
 .P1{
     font-size: 14px;
@@ -22,13 +27,19 @@
 }
 
 .Home-Sub-Container{
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 @media screen and (min-width: 900px){
     .Home-Container{
+        padding: 40px;
         padding-right: 130px;
     }
+
+    .Home-Container .Top-Heading{
+        font-size: 3vw;
+    }
+    
   
     .Who-We-Are .Info img{
         height: 44px;

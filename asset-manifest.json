@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/edutekzila-main/static/css/main.16d4400c.chunk.css",
-    "main.js": "/edutekzila-main/static/js/main.21c22ad2.chunk.js",
-    "main.js.map": "/edutekzila-main/static/js/main.21c22ad2.chunk.js.map",
-    "runtime-main.js": "/edutekzila-main/static/js/runtime-main.e16111f4.js",
-    "runtime-main.js.map": "/edutekzila-main/static/js/runtime-main.e16111f4.js.map",
+    "main.css": "/edutekzila-main/static/css/main.fbeb5495.chunk.css",
+    "main.js": "/edutekzila-main/static/js/main.e51decb9.chunk.js",
+    "main.js.map": "/edutekzila-main/static/js/main.e51decb9.chunk.js.map",
+    "runtime-main.js": "/edutekzila-main/static/js/runtime-main.bb36a056.js",
+    "runtime-main.js.map": "/edutekzila-main/static/js/runtime-main.bb36a056.js.map",
     "static/js/2.79e85d66.chunk.js": "/edutekzila-main/static/js/2.79e85d66.chunk.js",
     "static/js/2.79e85d66.chunk.js.map": "/edutekzila-main/static/js/2.79e85d66.chunk.js.map",
-    "static/js/3.62dd2060.chunk.js": "/edutekzila-main/static/js/3.62dd2060.chunk.js",
-    "static/js/3.62dd2060.chunk.js.map": "/edutekzila-main/static/js/3.62dd2060.chunk.js.map",
+    "static/js/3.4e454b27.chunk.js": "/edutekzila-main/static/js/3.4e454b27.chunk.js",
+    "static/js/3.4e454b27.chunk.js.map": "/edutekzila-main/static/js/3.4e454b27.chunk.js.map",
     "index.html": "/edutekzila-main/index.html",
-    "static/css/main.16d4400c.chunk.css.map": "/edutekzila-main/static/css/main.16d4400c.chunk.css.map",
+    "static/css/main.fbeb5495.chunk.css.map": "/edutekzila-main/static/css/main.fbeb5495.chunk.css.map",
     "static/js/2.79e85d66.chunk.js.LICENSE.txt": "/edutekzila-main/static/js/2.79e85d66.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/edutekzila-main/static/media/Voyager.8053b152.otf",
     "static/media/androids.a78a16ff.png": "/edutekzila-main/static/media/androids.a78a16ff.png",
     "static/media/app_logo.681f831a.png": "/edutekzila-main/static/media/app_logo.681f831a.png",
     "static/media/blog_1.5e7d8e27.png": "/edutekzila-main/static/media/blog_1.5e7d8e27.png",
@@ -19,15 +20,18 @@
     "static/media/blog_3.5e7d8e27.png": "/edutekzila-main/static/media/blog_3.5e7d8e27.png",
     "static/media/computers.bcdd1cac.png": "/edutekzila-main/static/media/computers.bcdd1cac.png",
     "static/media/google_map.32bfb3a0.png": "/edutekzila-main/static/media/google_map.32bfb3a0.png",
+    "static/media/img_1.f630f7b2.png": "/edutekzila-main/static/media/img_1.f630f7b2.png",
+    "static/media/img_2.0372e49b.png": "/edutekzila-main/static/media/img_2.0372e49b.png",
+    "static/media/img_3.281c39b1.png": "/edutekzila-main/static/media/img_3.281c39b1.png",
     "static/media/iphones.3d1dc281.png": "/edutekzila-main/static/media/iphones.3d1dc281.png",
     "static/media/john_doe.6cbb1e80.png": "/edutekzila-main/static/media/john_doe.6cbb1e80.png",
     "static/media/story_img.75dc9ae3.png": "/edutekzila-main/static/media/story_img.75dc9ae3.png",
     "static/media/wearables.d49fb90c.png": "/edutekzila-main/static/media/wearables.d49fb90c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e16111f4.js",
+    "static/js/runtime-main.bb36a056.js",
     "static/js/2.79e85d66.chunk.js",
-    "static/css/main.16d4400c.chunk.css",
-    "static/js/main.21c22ad2.chunk.js"
+    "static/css/main.fbeb5495.chunk.css",
+    "static/js/main.e51decb9.chunk.js"
   ]
 }

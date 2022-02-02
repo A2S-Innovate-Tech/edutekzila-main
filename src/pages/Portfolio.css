@@ -5,17 +5,17 @@
     color: white;
 }
 
+.Portfolio-Container .Top-Heading{
+    font-size: 4vw;
+}
+
 .Portfolio-Container p{
     line-height: 1.7;
     text-align: justify;
 }
 
-.Portfolio-Heading{
-    margin-bottom: 0;
-}
-
 .Portfolio-Sub-Container{
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 
@@ -24,7 +24,9 @@
         padding: 40px;
         padding-right: 130px;
     }
-
+    .Portfolio-Container .Top-Heading{
+        font-size: 2vw;
+    }
 }
 
 

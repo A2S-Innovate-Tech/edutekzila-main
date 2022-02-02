@@ -14,13 +14,13 @@ function ServiceDropdown({service}) {
       onMouseDown={()=>false}
     >
         <div className="Dropdown" onClick={handleToggleDropdown}>
-          <div className="Title">{service.title}</div>
+          <p className="P1 Title">{service.title}</p>
           <div className="Icon">
             <FontAwesomeIcon icon={ toggleDropdown ? faCaretUp : faCaretDown } size="lg"/>
           </div>
         </div>
         <div className="Content" style={{display: toggleDropdown? "inline-block" : "none" }}>
-          <p className="P1">
+          <p className="P2">
             {service.description}
           </p>
           <div className="Bottom">

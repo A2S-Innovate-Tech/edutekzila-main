@@ -7,7 +7,7 @@ import { faCircle, } from '@fortawesome/free-solid-svg-icons'
 function OurServices() {
     return (
         <div className="Home-Sub-Container Our-Services">
-            <h2 className="Margin-B0">
+            <h2 className="Heading Margin-B0">
                 <span className = "Light-Blue">Our</span> Services
             </h2>
             {/* ALL SERVICES */}
@@ -19,7 +19,7 @@ function OurServices() {
                             <div className = "fa-Circle">
                                 <FontAwesomeIcon icon={ faCircle } size="sm"/>
                             </div>
-                            <p >{services.category}</p>
+                            <p className="P1 Margin-B0 ">{services.category}</p>
                         </div> 
                         {
                             services.items.map((service)=>{

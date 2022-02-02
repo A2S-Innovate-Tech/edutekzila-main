@@ -8,7 +8,7 @@ function ClientsTestinomials() {
     return (
         <div className="Home-Sub-Container Clients-Testimonials">
             <div className="Clients-Testimonials-Heading">
-                <h2>
+                <h2 className="Heading">
                     <span className = "Light-Blue">Clients</span> Testimonials
                 </h2>
                 <div>
@@ -27,7 +27,7 @@ function ClientsTestinomials() {
                     }))
                 }
             </div>
-            <a className="View-All" href="/">View all +</a>
+            <a className="P1" href="/">View all +</a>
             
         </div>
     );

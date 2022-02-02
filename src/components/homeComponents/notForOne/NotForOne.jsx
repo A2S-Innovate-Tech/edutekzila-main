@@ -5,10 +5,10 @@ import platforms from "../../../platforms.js"
 function NotForOne() {
     return (
         <div className="Home-Sub-Container Not-For-One">
-            <h2 className="Margin-B0">
+            <h2 className="Heading Margin-B0">
                 <span className = "Light-Blue">Not</span> For One
             </h2>
-            <p>We can design for variety of platforms whether it is computers, smart watches, smartphones, wearables and many more .....</p>
+            <p className="P1">We can design for variety of platforms whether it is computers, smart watches, smartphones, wearables and many more .....</p>
             <div className="Platforms-Container">
                 {
                     platforms.map((platform)=>{

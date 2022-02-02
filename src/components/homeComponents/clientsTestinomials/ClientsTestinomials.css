@@ -9,21 +9,23 @@
     background-color: #050F2C;
     color: #00BCE4;
     border-radius: 50%;
-    border: 2px solid #00BCE4;
+    border: 3px solid #00BCE4;
     cursor: pointer;
-    height: 30px;
-    width: 30px;
+    height: 36px;
+    width: 36px;
     margin-right: 10px;
+    font-size: 18px;
 }
 .Btn-Testinomials-Next{
     margin-top: 16px;
     background-color: #00BCE4;
     color: #050F2C;
     border-radius: 50%;
-    border: 2px solid #e2f3f7;
+    border: 3px solid #00BCE4;
     cursor: pointer;
-    height: 30px;
-    width: 30px;
+    height: 36px;
+    width: 36px;
+    font-size: 18px;
 }
 .Testimonials-Container{
     justify-content: center;
@@ -32,9 +34,29 @@
 }
 .Clients-Testimonials a{
     text-decoration: none;
-    font-size: 18px;
     display: flex;
     justify-content: flex-end;
     color: #32768F;
+    margin-top: 12px;
 }
 
+
+
+@media screen and (min-width: 900px){
+    
+    .Btn-Testinomials-Previous{
+        border: 3px solid #00BCE4;
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+        font-size: 24px;
+    }
+    .Btn-Testinomials-Next{
+        border: 3px solid #00BCE4;
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+        font-size: 24px;
+    }
+
+}

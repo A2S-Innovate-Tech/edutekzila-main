@@ -5,7 +5,7 @@ import expertiseTechs from "../../../expertiseTechs.js"
 function OurExpertise() {
     return (
         <div className="Home-Sub-Container Our-Expertise">
-            <h2 className="Margin-B0">
+            <h2 className="Heading Margin-B0">
                 <span className = "Light-Blue">Our</span> Expertise
             </h2>
             <div className="Techs">

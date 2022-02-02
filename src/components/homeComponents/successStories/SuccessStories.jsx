@@ -7,22 +7,22 @@ import StoryCard from "./StoryCard.jsx";
 function SuccessStories() {
     const stories = [
         {
-            title: "Story1",
+            title: "Project 1",
             img: StoryImg
         },
         {
-            title: "Story2",
+            title: "Project 2",
             img: StoryImg
         },
         {
-            title: "Story3",
+            title: "Project 3",
             img: StoryImg
         },
     ]
     return (
         <div className="Home-Sub-Container Success-Stories">
             <div className="Success-Stories-Heading">
-                <h2 className="Margin-B0">
+                <h2 className="Heading Margin-B0">
                     <span className = "Light-Blue">Success</span> Stories
                 </h2>
                 <div>
@@ -34,7 +34,7 @@ function SuccessStories() {
                     </button>
                 </div>
             </div>
-            <p>We believe that our client success is our success.</p>
+            <p className="P1">We believe that our client success is our success.</p>
             <div className="Stories-Container">
                 {
                     stories.map((story=>{

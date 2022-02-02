@@ -51,6 +51,10 @@
     height: 400px;
 }
 
+.Contact-Us h1{
+    margin: 8px 0 16px 0;
+    font-size: 46px;
+}
 
 @media screen and (min-width: 900px) and (max-width: 1259px){
     .Contact-Us{
@@ -70,7 +74,5 @@
         margin: 0 50px;
     }
 
-    .Contact-Us h1{
-        margin-bottom: 8px;
-    }
+    
 }

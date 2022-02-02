@@ -7,8 +7,12 @@
     /* text-align: center; */
 }
 
+.Blogs-Container .Top-Heading{
+    font-size: 46px
+}
+
 .Blogs-Sub-Container{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .Blogs-Sub-Container .Img-Top{
@@ -27,7 +31,7 @@
 
 .Blogs-Sub-Container .Blog-Description{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7;
     color: rgba(5, 15, 44, 0.7);
     text-align: justify;
@@ -44,13 +48,29 @@
 .Blogs-Sub-Container .Blog-Details > *{
     flex-grow: 1;
     flex-basis: 0;
+    font-weight: bold;
 }
 .Blogs-Sub-Container .Blog-Details > p{
     margin-left: 40px;
     text-align: right;
 }
 
+.Blogs-Container .All-Blogs h2{
+    color: #050F2C;
+    font-size: 30px;
 
+}
+
+.Blogs-Container .Popular-Ones h2{
+    color: #050F2C;
+    font-size: 30px;
+
+}
+
+
+.Blogs-Container .Popular-Ones {
+    margin-top: 60px;
+}
 /* 
 @media screen and (min-width: 900px) and (max-width: 1259px){
     .Blogs-Container{
@@ -60,16 +80,39 @@
 
 @media screen and (min-width: 900px) {
     .Blogs-Container{
+        padding: 40px;
         padding-right: 130px;
     }
+    .Blogs-Container .Top-Heading{
+        font-size: 4vw;
+    }
+
+    .Blogs-Sub-Container{
+        margin-top: 50px;
+        display: flex;
+    }
+    .Blogs-Sub-Container > div:first-child{
+        width: 60%;
+        margin-right: 30px;
+    }
+    .Blogs-Sub-Container .Blog-Cards{
+        width: 40%;
+        margin: 20px 0 0 20px ;
+    }
+
+    .Blogs-Container .Popular-Ones {
+        margin-top: auto
+    }
+    
 }
 
 @media screen and (min-width: 1260px){
     .Blogs-Sub-Container{
+        margin-top: 50px;
         display: flex;
     }
     
-    .Blogs-Sub-Container div:first-child{
+    .Blogs-Sub-Container > div:first-child{
         width: 60%;
         margin-right: 30px;
     }

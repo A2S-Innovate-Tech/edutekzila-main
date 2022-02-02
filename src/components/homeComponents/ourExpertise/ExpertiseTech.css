@@ -6,3 +6,7 @@
 .Expertise-Card img{
     height: 40px;
 }
+
+.Expertise-Card p{
+    font-weight: bold;
+}

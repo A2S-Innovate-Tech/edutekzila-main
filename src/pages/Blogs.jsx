@@ -1,8 +1,9 @@
 import "./Blogs.css";
 import BlogImg1 from "../assets/images/blogs/img_1.png";
 import BlogImg2 from "../assets/images/blogs/img_2.png";
-import BlogImg3 from "../assets/images/blogs/img_3.png";
 import BlogCard2 from "../components/blogsComponents/BlogCard2";
+import FigmaCard from "../components/blogsComponents/FigmaCard";
+import NewsletterCard from "../components/blogsComponents/NewsletterCard";
 
 const Blogs = () =>{
 
@@ -43,7 +44,27 @@ const Blogs = () =>{
                         </p>
                     </div>
                 </div>
-                <div >
+                <div className="Blog-Cards">
+                    <BlogCard2 blog={blog} />
+                    <BlogCard2 blog={blog} />
+                    <BlogCard2 blog={blog} />
+                    <BlogCard2 blog={blog} />
+                </div>
+            </div>
+            <div style={{borderBottom: "2px solid rgba(5, 15, 44, 0.5)", width:"100%", marginTop:"20px"}} />
+            <FigmaCard />
+            <div className="Blogs-Sub-Container">
+                <div className="All-Blogs">
+                    <h2>All <span className="Light-Blue">Blogs</span></h2>
+                    <div style={{borderBottom: "2px solid rgba(5, 15, 44, 0.5)", width:"100%", marginBottom:"30px"}} />
+                    <BlogCard2 blog={blog} />
+                    <BlogCard2 blog={blog} />
+                    <BlogCard2 blog={blog} />
+                    <BlogCard2 blog={blog} />
+                </div>
+                <div className="Popular-Ones">
+                    <h2>Popular <span className="Light-Blue">Ones</span></h2>
+                    <div style={{borderBottom: "2px solid rgba(5, 15, 44, 0.5)", width:"100%", marginBottom:"30px"}} />
                     <BlogCard2 blog={blog} />
                     <BlogCard2 blog={blog} />
                     <BlogCard2 blog={blog} />
@@ -51,9 +72,19 @@ const Blogs = () =>{
                 </div>
             </div>
         </div>
-
+        
+        <NewsletterCard />
 
     </div>
 }
 
 export default Blogs;
+
+/* */
+
+// position: absolute;
+// width: 1038px;
+// height: 0px;
+// left: 0px;
+// top: 718px;
+

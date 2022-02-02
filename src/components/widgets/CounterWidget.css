@@ -12,4 +12,24 @@
 }
 .Counter-Widget-Container .Label h3{
     margin-top: 0;
+    font-size: 24px;
+}
+
+
+
+@media screen and (min-width: 900px){
+    
+    .Counter-Widget-Container img{
+        height: 60px;
+    }
+
+
+    .Counter-Widget-Container .Label{
+        margin-left: 24px;
+    }
+
+    .Counter-Widget-Container .Label h3{
+        font-size: 36px;
+    }
+
 }

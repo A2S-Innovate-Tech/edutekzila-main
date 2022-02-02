@@ -1,0 +1,87 @@
+
+.Newsletter-Card{
+    padding: 20px 10px;
+    background: linear-gradient(149.27deg, #00BCE4 -6.57%, rgba(0, 188, 228, 0.64) 122.53%);
+}
+
+.Newsletter-Card > div{
+    padding: 20px;
+}
+
+.Newsletter-Card .Heading{
+    margin-top: 0;
+    color: #050F2C;
+    font-size: 36px;
+}
+
+.Newsletter-Card p{
+    text-align: justify;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgba(5, 15, 44, 0.8);
+}
+.Newsletter-Card .Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Newsletter-Card form{
+    display: inline-block;
+    background-color: #050F2C;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.Newsletter-Card form input{
+    display: flex;
+    font-size: 18px;
+    padding: 14px 16px;
+}
+
+.Newsletter-Card form button{
+    background: #00BCE4;
+    border-radius: 6px;
+    margin-top: 15px;
+    color: #050F2C;
+    width: 100%;
+    padding: 14px 40px;
+    font-weight:  bold;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 600px){
+    .Newsletter-Card{
+        padding: 30px 20px ;
+    }
+
+    .Newsletter-Card .Form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+    .Newsletter-Card form button{
+        width: auto;
+        margin-left: 20px;
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .Newsletter-Card form input{
+        width: 30vw;
+        display: inline-block;
+    }
+   
+}
+@media screen and (min-width: 900px){
+    
+    .Newsletter-Card{
+        padding: 30px 20px ;
+        padding-right: 130px;
+    }
+   
+}

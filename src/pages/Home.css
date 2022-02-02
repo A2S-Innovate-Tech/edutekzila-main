@@ -1,15 +1,24 @@
 .Home-Container{
-    box-sizing: border-box;
     padding: 30px;
     padding-bottom: 60px;
     color: white;
 }
 
+.Home-Container .Top-Heading {
+    font-size: 5vw;
+}
+
 .P1{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.P2{
+    font-weight: bold;
     font-size: 14px;
     margin: 0;
-    color: rgba(255, 255, 255, 0.7);
-    
+    color: rgba(255, 255, 255, 0.7);  
 }
 
 .Home-Container p{
@@ -22,16 +31,39 @@
 }
 
 .Home-Sub-Container{
-    margin-top: 60px;
+    margin-top: 90px;
 }
+.Home-Sub-Container .Heading{
+    font-size: 26px;
+}
+
 
 @media screen and (min-width: 900px){
     .Home-Container{
+        padding: 40px;
         padding-right: 130px;
+    }
+
+    .Home-Container .Top-Heading{
+        font-size: 3vw;
     }
   
     .Who-We-Are .Info img{
         height: 44px;
+    }
+    
+    .Home-Sub-Container .Heading{
+        font-size: 40px;
+    }
+    .P2{
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .P1{
+        font-weight: bold;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.9);
     }
 
 }

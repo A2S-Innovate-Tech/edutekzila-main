@@ -11,7 +11,7 @@ function TestinomialCard({testinomial}) {
             <img src={CommaUpBlue} alt="comma" />
             <img src={CommaUpWhite} alt="comma" />
         </div>
-        <p className="Testinomial-Text Margin-T0 Margin-B0">
+        <p className="P2 Testinomial-Text Margin-T0 Margin-B0">
             {testinomial.content}
         </p>
         <div className="Commas Commas-Down">

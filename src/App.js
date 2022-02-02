@@ -21,11 +21,11 @@ function App() {
   return (
     <div className="App">
       <ScreenWidthState>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           {!toggleSidebar&&<Navbar />}
           <Sidebar setToggleSidebar={setToggleSidebar} toggleSidebar={toggleSidebar}/>
           
-          <div style={{height:"70px", backgroundColor: "#050F2C"}}></div>
+          {/* <div style={{height:"70px", backgroundColor: "#050F2C"}}></div> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/portfolio" element={<Portfolio />} />

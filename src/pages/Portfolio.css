@@ -5,22 +5,28 @@
     color: white;
 }
 
+.Portfolio-Container .Top-Heading{
+    font-size: 4vw;
+}
+
 .Portfolio-Container p{
     line-height: 1.7;
     text-align: justify;
 }
 
-.Portfolio-Heading{
-    margin-bottom: 0;
+.Portfolio-Sub-Container{
+    margin-top: 90px;
 }
-
 
 
 @media screen and (min-width: 900px){
     .Portfolio-Container{
+        padding: 40px;
         padding-right: 130px;
     }
-
+    .Portfolio-Container .Top-Heading{
+        font-size: 2vw;
+    }
 }
 
 

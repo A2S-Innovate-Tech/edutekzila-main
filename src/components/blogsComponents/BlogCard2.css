@@ -1,0 +1,40 @@
+
+.Blog-Card-2{
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+.Blog-Card-2 img{
+    width: 110px;
+    height: 110px;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+.Blog-Card-2 p{
+    text-align: left;
+}
+.Blog-Card-2 .Title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #050F2C;
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.Blog-Card-2 .Details > *{
+    font-weight:500;
+    color: rgba(5, 15, 44, 0.5);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.Blog-Card-2 .Details p{
+    margin: 6px 0;
+    font-weight: bold;
+}

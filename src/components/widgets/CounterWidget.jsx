@@ -6,7 +6,7 @@ function CounterWidget(props) {
         <img src={props.img} alt={props.img} />
         <div className="Label">
             <h3 className = "Margin-B0 Light-Blue">{props.count}</h3>
-            <p className="P1">{props.label}</p>
+            <p className="P2">{props.label}</p>
         </div>
     </div>
   );

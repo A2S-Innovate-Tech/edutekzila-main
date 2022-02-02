@@ -5,7 +5,7 @@ import BlogCard from "./BlogCard.jsx";
 function OurBlogs() {
     return (
         <div className="Home-Sub-Container Our-Blogs">
-            <h2 >
+            <h2 className="Heading">
                 <span className = "Light-Blue">Our</span> Blogs
             </h2>
             {
@@ -13,7 +13,7 @@ function OurBlogs() {
                     return <BlogCard key={blog.id} blog={blog}/>
                 })
             }
-            <a className="View-All" href="/">View all +</a>           
+            <a className="P1" href="/">View all +</a>           
         </div>
     );
 }

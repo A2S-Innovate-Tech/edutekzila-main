@@ -12,10 +12,10 @@ function ContactUs() {
     return (
         <div>
             {
-                screenWidthState.screenWidth<1220
+                screenWidthState.screenWidth<1260
                 ?  <div className="Contact-Us  Contact-Us-Mobile">
                         {
-                            screenWidthState.screenWidth<1220 && <h1>
+                            screenWidthState.screenWidth<1260 && <h1 className="Top-Heading">
                                 CONTACT US
                             </h1>
                         }
@@ -33,7 +33,7 @@ function ContactUs() {
                     </div>
                 :   <div className="Contact-Us">
                         <div className="Info-Container">
-                            <h1>
+                            <h1 className="Top-Heading">
                                 CONTACT US
                             </h1>
                             

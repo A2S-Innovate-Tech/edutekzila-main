@@ -8,7 +8,7 @@ import HappyClientsImg from "../../../assets/images/ourWork/happy_clients.png";
 function OurWork() {
     return (
         <div className="Home-Sub-Container Our-Work">
-            <h2 >
+            <h2 className="Heading">
                 <span className = "Light-Blue">Our</span> Work
             </h2>
             <iframe className="Youtube-Player" title="video"

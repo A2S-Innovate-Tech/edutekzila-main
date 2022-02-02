@@ -10,7 +10,7 @@ const Portfolio = () =>{
 
     return <div>
         <div className="Portfolio-Container">
-            <div className="Top-Heading">
+            <div className="Portfolio-Sub-Container Top-Heading">
                 <h1>
                     OUR <span className = "Light-Blue">PORTFOLIO</span> OF WORK
                 </h1>

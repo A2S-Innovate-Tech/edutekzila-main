@@ -34,14 +34,16 @@
 .Project-Card .Title{
     font-weight:500;
     font-size: 26px;
+    font-weight: bold;
 }
 .Project-Card .Category{
+    margin: 8px  0 12px 0;
     font-weight: bold;
     font-size: 16px;
 }
 .Project-Card .Description{
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 50px;
 }
 .Project-Card .Btn-Project-View{
@@ -63,7 +65,7 @@
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 1219px){
+@media screen and (min-width: 600px) and (max-width: 1259px){
     .Project-Card .Title{
         margin-top: 0;
     }
@@ -77,7 +79,7 @@
 
 }
 
-@media screen and (min-width: 1220px){
+@media screen and (min-width: 1260px){
     .Project-Card .Title{
         margin-top: 0;
     }

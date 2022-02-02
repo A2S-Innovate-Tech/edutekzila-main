@@ -1,6 +1,8 @@
 /* OUR Services */
 .Service-Category{
     display: flex;
+    align-items: center;
+    margin: 10px 0 20px 0;
 }
 .Service-Category .fa-Circle{
     display: flex;
@@ -15,7 +17,4 @@
     border: 3px solid #00BCE4;
     height: 24px;
     width: 24px;
-}
-.Service-Category p{
-    font-size: 20px;
 }

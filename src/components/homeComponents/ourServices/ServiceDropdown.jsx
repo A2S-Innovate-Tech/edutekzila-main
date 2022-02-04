@@ -8,6 +8,11 @@ function ServiceDropdown({service}) {
   const handleToggleDropdown=()=>{
     setToggleDropdown(!toggleDropdown)
   }
+
+  const quoteHandler=()=>{
+
+  }
+
   return (
     <div className="Service-Dropdown" 
       unselectable="on"
@@ -31,7 +36,7 @@ function ServiceDropdown({service}) {
                 })
               }
             </div>
-            <button className="Btn-Get-Quote">
+            <button onClick={quoteHandler} className="Btn-Get-Quote">
                 Get Quote
             </button>
           </div>

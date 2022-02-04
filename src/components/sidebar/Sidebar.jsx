@@ -21,7 +21,7 @@ const Sidebar = ({toggleSidebar,setToggleSidebar}) =>{
                     <button onClick={toggleSidebarHandler} className="Btn-Toggle-Sidebar">
                         <img src={toggleSidebar ? SidebarCloseIcon : SidebarOpenIcon}  alt="menu" />
                     </button>
-                    <button onClick={toggleSidebarHandler} className="Btn-Comments">
+                    <button onClick={()=>{}} className="Btn-Comments">
                         <img src={ChatIcon} alt="chat" />
                     </button>
             </div>

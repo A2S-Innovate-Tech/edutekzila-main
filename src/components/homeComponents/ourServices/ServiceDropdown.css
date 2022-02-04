@@ -62,15 +62,21 @@
 }
 
 .Bottom .Btn-Get-Quote{
-    padding: 8px;
+    padding: 10px 20px;
     /* height: 30px; */
-    width: 100px;
-    background-color: #00BCE4;
+    /* width: 100px; */
+    /* background-color: #00BCE4; */
+    background-color: var(--blue-light);
     border:  none;
     border-radius: 6px;
     color: #050F2C;
     font-weight: bold;
     display: inline-block;
+    font-size: 16px;
+}
+.Bottom .Btn-Get-Quote:hover{
+    cursor: pointer;
+    background-color: #0a91af;
 }
 @media screen and (min-width: 900px){
     .Service-Dropdown{

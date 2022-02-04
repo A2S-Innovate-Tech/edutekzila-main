@@ -11,7 +11,7 @@
 }
 
 .Dark-Blue{
-  color: #050F2C;
+  color: var(--blue-dark);
 }
 
 .Family-Vision{

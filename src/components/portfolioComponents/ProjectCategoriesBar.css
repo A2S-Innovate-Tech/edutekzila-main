@@ -24,7 +24,7 @@
 }
 
 .Project-Categories-Bar .Not-Selected{
-    background: #050F2C;
+    background: var(--blue-dark);
 
 }
 

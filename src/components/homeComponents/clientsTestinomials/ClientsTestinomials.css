@@ -6,7 +6,7 @@
 }
 .Btn-Testinomials-Previous{
     margin-top: 16px;
-    background-color: #050F2C;
+    background-color: var(--blue-dark);
     color: #00BCE4;
     border-radius: 50%;
     border: 3px solid #00BCE4;
@@ -19,7 +19,7 @@
 .Btn-Testinomials-Next{
     margin-top: 16px;
     background-color: #00BCE4;
-    color: #050F2C;
+    color: var(--blue-dark);
     border-radius: 50%;
     border: 3px solid #00BCE4;
     cursor: pointer;

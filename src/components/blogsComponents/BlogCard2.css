@@ -16,7 +16,7 @@
 .Blog-Card-2 .Title{
     font-weight: bold;
     font-size: 20px;
-    color: #050F2C;
+    color: var(--blue-dark);
     margin-bottom: 8px;
     overflow: hidden;
     text-overflow: ellipsis;

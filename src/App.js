@@ -29,7 +29,7 @@ function App() {
           {/* {toggleSidebar&&<SidebarOpen toggleSidebar={toggleSidebar}/>} */}
 
           <Sidebar setToggleSidebar={setToggleSidebar} toggleSidebar={toggleSidebar}/>
-          {/* <div style={{height:"70px", backgroundColor: "#050F2C"}}></div> */}
+          {/* <div style={{height:"70px", backgroundColor: "var(--blue-dark)"}}></div> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/portfolio" element={<Portfolio />} />

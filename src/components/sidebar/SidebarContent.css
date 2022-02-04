@@ -33,7 +33,7 @@
     background-color: #00BCE4;
     border-radius: 100px;
     padding: 6px;
-    color: #050F2C;
+    color: var(--blue-dark);
     font-size: 10px;
 }
 
@@ -61,7 +61,7 @@
    
   /* Handle */
 .Sidebar-Content::-webkit-scrollbar-thumb {
-    background: #050F2C;
+    background: var(--blue-dark);
     border-radius: 10px;
 }
   

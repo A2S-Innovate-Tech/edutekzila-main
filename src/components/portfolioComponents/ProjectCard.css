@@ -8,7 +8,7 @@
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    color: #050f2c;
+    color: var(--blue-dark);
     width: 80vw;
     max-width: 600px;
 }

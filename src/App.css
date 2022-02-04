@@ -1,5 +1,5 @@
 .App{
-    background-color: #050F2C;
+    background-color: var(--blue-dark);
 }
 
 .Top-Heading{

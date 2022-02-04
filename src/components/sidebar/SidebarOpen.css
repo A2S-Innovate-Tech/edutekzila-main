@@ -58,7 +58,7 @@
 }
 
 .Sidebar-Open .Left-Menu .Copyright{
-    color: #050F2C;
+    color: var(--blue-dark);
     text-align: center;
     font-size: 2.2vh;
 }
@@ -86,7 +86,7 @@
    
   /* Handle */
 .Left-Menu::-webkit-scrollbar-thumb {
-    background: #050F2C;
+    background: var(--blue-dark);
     border-radius: 10px;
 }
   

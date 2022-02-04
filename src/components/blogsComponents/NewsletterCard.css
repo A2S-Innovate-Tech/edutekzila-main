@@ -10,7 +10,7 @@
 
 .Newsletter-Card .Heading{
     margin-top: 0;
-    color: #050F2C;
+    color: var(--blue-dark);
     font-size: 36px;
 }
 
@@ -30,7 +30,7 @@
 
 .Newsletter-Card form{
     display: inline-block;
-    background-color: #050F2C;
+    background-color: var(--blue-dark);
     padding: 30px;
     border-radius: 12px;
     text-align: center;
@@ -47,7 +47,7 @@
     background: #00BCE4;
     border-radius: 6px;
     margin-top: 15px;
-    color: #050F2C;
+    color: var(--blue-dark);
     width: 100%;
     padding: 14px 40px;
     font-weight:  bold;

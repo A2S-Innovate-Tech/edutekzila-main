@@ -1,6 +1,6 @@
 .Contact-Form{
     /* flex-grow: 1; */
-    background-color: #050F2C;
+    background-color: var(--blue-dark);
     border-radius: 16px;
     text-align: center;
     padding: 6px 30px;
@@ -34,7 +34,7 @@
     background-color: #00BCE4;
     font-weight: bold;
     font-size: 18px;
-    color: #050F2C;
+    color: var(--blue-dark);
 }
 .Contact-Form .Btn-Submit:hover{
     cursor: pointer;

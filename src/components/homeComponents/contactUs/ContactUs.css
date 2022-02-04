@@ -3,7 +3,7 @@
 .Contact-Us{
     background-color: #00BCE4;
     padding: 30px;
-    color: #050F2C;
+    color: var(--blue-dark);
     display: flex;
     justify-content: space-between;
 }

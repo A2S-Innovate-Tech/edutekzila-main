@@ -22,7 +22,7 @@
     text-align: left;
     padding: 12px 24px;
     font-size: 1.8rem;
-    color: #050F2C;
+    color: var(--blue-dark);
 }
 
 

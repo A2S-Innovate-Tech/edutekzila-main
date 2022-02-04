@@ -40,6 +40,7 @@
     display: flex;
     font-size: 18px;
     padding: 14px 16px;
+    max-width: 60vw;
 }
 
 .Newsletter-Card form button{
@@ -51,6 +52,10 @@
     padding: 14px 40px;
     font-weight:  bold;
     font-size: 18px;
+}
+
+.Newsletter-Card form button:hover{
+    cursor: pointer;
 }
 
 @media screen and (min-width: 600px){

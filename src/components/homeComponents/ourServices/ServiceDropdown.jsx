@@ -14,7 +14,7 @@ function ServiceDropdown({service}) {
       onMouseDown={()=>false}
     >
         <div className="Dropdown" onClick={handleToggleDropdown}>
-          <p className="P1 Title">{service.title}</p>
+          <div className="P1 Title">{service.title}</div>
           <div className="Icon">
             <FontAwesomeIcon icon={ toggleDropdown ? faCaretUp : faCaretDown } size="lg"/>
           </div>

@@ -13,6 +13,7 @@ import {
 } from "react-router-dom"
 import ScreenWidthState from './api/ScreenWidthState';
 import Blogs from './pages/Blogs';
+import SidebarOpen from './components/sidebar/SidebarOpen';
 
 
 function App() {
@@ -22,9 +23,12 @@ function App() {
     <div className="App">
       <ScreenWidthState>
         <Router basename={process.env.PUBLIC_URL}>
-          {!toggleSidebar&&<Navbar />}
-          <Sidebar setToggleSidebar={setToggleSidebar} toggleSidebar={toggleSidebar}/>
+          <Navbar />
           
+          <SidebarOpen toggleSidebar={toggleSidebar}/>
+          {/* {toggleSidebar&&<SidebarOpen toggleSidebar={toggleSidebar}/>} */}
+
+          <Sidebar setToggleSidebar={setToggleSidebar} toggleSidebar={toggleSidebar}/>
           {/* <div style={{height:"70px", backgroundColor: "#050F2C"}}></div> */}
           <Routes>
             <Route exact path="/" element={<Home />} />

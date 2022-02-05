@@ -6,10 +6,10 @@
 }
 .Btn-Testinomials-Previous{
     margin-top: 16px;
-    background-color: #050F2C;
-    color: #00BCE4;
+    background-color: var(--blue-dark);
+    color: var(--blue-light);
     border-radius: 50%;
-    border: 3px solid #00BCE4;
+    border: 3px solid var(--blue-light);
     cursor: pointer;
     height: 36px;
     width: 36px;
@@ -18,10 +18,10 @@
 }
 .Btn-Testinomials-Next{
     margin-top: 16px;
-    background-color: #00BCE4;
-    color: #050F2C;
+    background-color: var(--blue-light);
+    color: var(--blue-dark);
     border-radius: 50%;
-    border: 3px solid #00BCE4;
+    border: 3px solid var(--blue-light);
     cursor: pointer;
     height: 36px;
     width: 36px;
@@ -45,14 +45,14 @@
 @media screen and (min-width: 900px){
     
     .Btn-Testinomials-Previous{
-        border: 3px solid #00BCE4;
+        border: 3px solid var(--blue-light);
         height: 50px;
         width: 50px;
         margin-right: 20px;
         font-size: 24px;
     }
     .Btn-Testinomials-Next{
-        border: 3px solid #00BCE4;
+        border: 3px solid var(--blue-light);
         height: 50px;
         width: 50px;
         margin-right: 20px;

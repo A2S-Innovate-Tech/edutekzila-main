@@ -11,10 +11,10 @@
     box-sizing: border-box;
     margin-top: 22px;
     margin-right: 16px;
-    background-color: #050F2C;
-    color: #00BCE4;
+    background-color: var(--blue-dark);
+    color: var(--blue-light);
     border-radius: 50%;
-    border: 3px solid #00BCE4;
+    border: 3px solid var(--blue-light);
     height: 24px;
     width: 24px;
 }

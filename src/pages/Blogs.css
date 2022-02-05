@@ -25,7 +25,7 @@
 .Blogs-Sub-Container .Blog-Title{
     font-weight: bold;
     font-size: 30px;
-    color: #050F2C;
+    color: var(--blue-dark);
 }
 
 
@@ -56,13 +56,13 @@
 }
 
 .Blogs-Container .All-Blogs h2{
-    color: #050F2C;
+    color: var(--blue-dark);
     font-size: 30px;
 
 }
 
 .Blogs-Container .Popular-Ones h2{
-    color: #050F2C;
+    color: var(--blue-dark);
     font-size: 30px;
 
 }

@@ -79,12 +79,3 @@ const Blogs = () =>{
 }
 
 export default Blogs;
-
-/* */
-
-// position: absolute;
-// width: 1038px;
-// height: 0px;
-// left: 0px;
-// top: 718px;
-

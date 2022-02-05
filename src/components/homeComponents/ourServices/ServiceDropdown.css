@@ -11,7 +11,7 @@
 }
 .Service-Dropdown .Dropdown{
     
-    border: 3px solid #00BCE4;
+    border: 3px solid var(--blue-light);
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -21,6 +21,7 @@
 
 .Service-Dropdown .Dropdown .Title{
     margin: 12px 18px;
+    padding: 6px 4px;
 }
 
 .Service-Dropdown .Dropdown  .Icon{
@@ -61,15 +62,21 @@
 }
 
 .Bottom .Btn-Get-Quote{
-    padding: 8px;
+    padding: 10px 20px;
     /* height: 30px; */
-    width: 100px;
-    background-color: #00BCE4;
+    /* width: 100px; */
+    /* background-color: var(--blue-light); */
+    background-color: var(--blue-light);
     border:  none;
     border-radius: 6px;
-    color: #050F2C;
+    color: var(--blue-dark);
     font-weight: bold;
     display: inline-block;
+    font-size: 16px;
+}
+.Bottom .Btn-Get-Quote:hover{
+    cursor: pointer;
+    background-color: #0a91af;
 }
 @media screen and (min-width: 900px){
     .Service-Dropdown{

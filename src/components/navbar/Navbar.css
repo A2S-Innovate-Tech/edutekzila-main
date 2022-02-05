@@ -42,9 +42,9 @@ nav{
 
 .Btn-Contact-Us{
     margin: 16px 12px;
-    background-color: #00BCE4;
+    background-color: var(--blue-light);
     color: #050F2C;
-    padding: 8px 20px;
+    padding: 10px 20px;
     border-radius: 100px;
     border: none;
     cursor: pointer;

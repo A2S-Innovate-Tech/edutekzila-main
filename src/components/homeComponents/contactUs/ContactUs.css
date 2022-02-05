@@ -1,9 +1,9 @@
 
 /* CONTACT US */
 .Contact-Us{
-    background-color: #00BCE4;
+    background-color: var(--blue-light);
     padding: 30px;
-    color: #050F2C;
+    color: var(--blue-dark);
     display: flex;
     justify-content: space-between;
 }

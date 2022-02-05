@@ -30,7 +30,7 @@
 .Sidebar-Content .List-Item .Bullet{
     position: relative;
     right: 13.6px;
-    background-color: #00BCE4;
+    background-color: var(--blue-light);
     border-radius: 100px;
     padding: 6px;
     color: var(--blue-dark);

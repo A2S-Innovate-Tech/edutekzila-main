@@ -1,7 +1,7 @@
 
 /* CONTACT US */
 .Contact-Us{
-    background-color: #00BCE4;
+    background-color: var(--blue-light);
     padding: 30px;
     color: var(--blue-dark);
     display: flex;

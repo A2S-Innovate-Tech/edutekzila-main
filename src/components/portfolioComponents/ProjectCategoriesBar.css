@@ -30,7 +30,7 @@
 
 .Project-Categories-Bar .Not-Selected:hover{
     cursor: pointer;
-    color: #00BCE4;
+    color: var(--blue-light);
     transform: scale(1.1);
     transition-duration: 100ms;
 }

@@ -1,7 +1,7 @@
 
 .Newsletter-Card{
     padding: 20px 10px;
-    background: linear-gradient(149.27deg, #00BCE4 -6.57%, rgba(0, 188, 228, 0.64) 122.53%);
+    background: linear-gradient(149.27deg, var(--blue-light) -6.57%, rgba(0, 188, 228, 0.64) 122.53%);
 }
 
 .Newsletter-Card > div{
@@ -44,7 +44,7 @@
 }
 
 .Newsletter-Card form button{
-    background: #00BCE4;
+    background: var(--blue-light);
     border-radius: 6px;
     margin-top: 15px;
     color: var(--blue-dark);

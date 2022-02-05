@@ -1,7 +1,7 @@
 
 nav{
     transition: 100ms ease-in-out;
-    background-color: var(--blue-dark);
+    background-color: #050F2C;
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -42,8 +42,8 @@ nav{
 
 .Btn-Contact-Us{
     margin: 16px 12px;
-    background-color: #00BCE4;
-    color: var(--blue-dark);
+    background-color: var(--blue-light);
+    color: #050F2C;
     padding: 10px 20px;
     border-radius: 100px;
     border: none;

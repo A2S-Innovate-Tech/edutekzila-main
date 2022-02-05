@@ -2,15 +2,19 @@ import './ServiceDropdown.css';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretUp,faCaretDown} from '@fortawesome/free-solid-svg-icons'
+import GetQuoteDialog from './GetQuoteDialog';
 
 function ServiceDropdown({service}) {
   const [toggleDropdown, setToggleDropdown] = useState(false);
+  const [showQuoteDialog, setShowQuoteDialog] = useState(false);
+  
   const handleToggleDropdown=()=>{
     setToggleDropdown(!toggleDropdown)
   }
 
   const quoteHandler=()=>{
-
+    console.log("Show quote popup");
+    setShowQuoteDialog(true);
   }
 
   return (
@@ -18,6 +22,7 @@ function ServiceDropdown({service}) {
       unselectable="on"
       onMouseDown={()=>false}
     >
+        {showQuoteDialog&& <GetQuoteDialog setShowQuoteDialog={setShowQuoteDialog}/>}
         <div className="Dropdown" onClick={handleToggleDropdown}>
           <div className="P1 Title">{service.title}</div>
           <div className="Icon">

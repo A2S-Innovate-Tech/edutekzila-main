@@ -13,7 +13,7 @@
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    border: 3px solid #00BCE4;
+    border: 3px solid var(--blue-light);
     color:white;
     width: 80vw;
     max-width: 600px;

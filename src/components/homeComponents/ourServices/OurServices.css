@@ -12,9 +12,9 @@
     margin-top: 22px;
     margin-right: 16px;
     background-color: var(--blue-dark);
-    color: #00BCE4;
+    color: var(--blue-light);
     border-radius: 50%;
-    border: 3px solid #00BCE4;
+    border: 3px solid var(--blue-light);
     height: 24px;
     width: 24px;
 }

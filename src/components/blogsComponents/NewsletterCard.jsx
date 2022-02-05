@@ -8,7 +8,6 @@ const NewsletterCard = () =>{
             </h2>
             <p>
                 Get the latest updates on design, development, and technology trends right in your inbox.
-                Get the latest updates on design, development, and technology trends right in your inbox.
             </p>
             <div className="Form">
                 <form action="">

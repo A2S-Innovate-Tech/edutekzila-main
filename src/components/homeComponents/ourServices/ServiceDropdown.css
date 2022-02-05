@@ -11,7 +11,7 @@
 }
 .Service-Dropdown .Dropdown{
     
-    border: 3px solid #00BCE4;
+    border: 3px solid var(--blue-light);
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -65,7 +65,7 @@
     padding: 10px 20px;
     /* height: 30px; */
     /* width: 100px; */
-    /* background-color: #00BCE4; */
+    /* background-color: var(--blue-light); */
     background-color: var(--blue-light);
     border:  none;
     border-radius: 6px;

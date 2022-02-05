@@ -27,8 +27,8 @@ const Navbar = () =>{
             (screenWidthState.screenWidth >= 900 || toggleNav) &&
                 <ul className="Nav-Items">
                     <li className="Nav-Item"><Link style={{color: (location.pathname === "/"?"var(--blue-light)": "white")}} to="/">Home</Link></li>
-                    <li className="Nav-Item"><Link style={{color: (location.pathname === "/portfolio"?"#00BCE4": "white")}} to="/portfolio">Portfolio</Link></li>
-                    <li className="Nav-Item"><Link style={{color: (location.pathname === "/blogs"?"#00BCE4": "white")}} to="/blogs">Blogs</Link></li>
+                    <li className="Nav-Item"><Link style={{color: (location.pathname === "/portfolio"?"var(--blue-light)": "white")}} to="/portfolio">Portfolio</Link></li>
+                    <li className="Nav-Item"><Link style={{color: (location.pathname === "/blogs"?"var(--blue-light)": "white")}} to="/blogs">Blogs</Link></li>
                     <button className = "Btn-Contact-Us">Contact Us</button>
                 </ul>
 

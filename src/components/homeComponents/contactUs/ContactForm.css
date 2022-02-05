@@ -22,7 +22,10 @@
     padding: 12px;
     border: none;
     border-radius: 6px;
-    font-family: "Vision";
+    background-color: var(--blue-light);
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--blue-dark);
 }
 
 .Contact-Form .Message{
@@ -30,12 +33,6 @@
     resize: none;
 }
 
-.Contact-Form .Btn-Submit{
-    background-color: #00BCE4;
-    font-weight: bold;
-    font-size: 18px;
-    color: var(--blue-dark);
-}
 .Contact-Form .Btn-Submit:hover{
     cursor: pointer;
     background-color: #22d6ff;

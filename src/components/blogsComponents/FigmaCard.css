@@ -2,7 +2,7 @@
 .Figma-Card{
     /* display: flex; */
     align-items: center;
-    background: linear-gradient(149.27deg, #00BCE4 -6.57%, rgba(0, 188, 228, 0.3) 122.53%);
+    background: linear-gradient(149.27deg, var(--blue-light) -6.57%, rgba(0, 188, 228, 0.3) 122.53%);
     border-radius: 16px;
     margin: 0 2vw;
     margin-top: 50px;

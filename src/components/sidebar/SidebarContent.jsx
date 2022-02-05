@@ -6,7 +6,6 @@ import {faCircle} from '@fortawesome/free-solid-svg-icons';
 import TriangleImg from "../../assets/images/triangle.png";
 
 const SidebarContent = ({content}) =>{
-    console.log(content)
     // const screenWidthState = useContext(ScreenWidthContext);
     
     return <>
@@ -20,7 +19,7 @@ const SidebarContent = ({content}) =>{
                             
                             {
                                 entry[1].map((listItem)=>{
-                                    return <div className="List-Item">
+                                    return <div key={listItem} className="List-Item">
                                         <FontAwesomeIcon className="Bullet" icon={ faCircle } size="sm"/>
                                         <p key={listItem}>{listItem}</p>
                                     </div>

@@ -19,9 +19,9 @@ const SidebarOpen = ({toggleSidebar, setToggleSidebar}) =>{
                 <div className="Left-Menu">
                     <div>
                         {
-                            Object.keys(sidebarContents).map((serviceCategory)=>{
-                                return <h1 className={(serviceCategory===serviceCategory?"Dark-Blue":"")} onClick = {()=>serviceCategoryHandler(serviceCategory)} key={serviceCategory}>
-                                    {serviceCategory.toUpperCase()}
+                            Object.keys(sidebarContents).map((category)=>{
+                                return <h1 className={(category===serviceCategory?"Dark-Blue":"")} onClick = {()=>serviceCategoryHandler(category)} key={category}>
+                                    {category.toUpperCase()}
                                 </h1>
                             })
                         }

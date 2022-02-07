@@ -1,0 +1,36 @@
+.Team-User-Profile{
+    margin: 16px;
+    width: 200px;
+    text-align: center;
+}
+
+.Team-User-Profile .Name{
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--blue-light);
+    text-align: center;
+
+}
+  
+.Team-User-Profile .Designation{
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.863);  
+  text-align: center;
+}
+
+
+
+@media screen and (min-width: 900px){
+
+    .Team-User-Profile .Name{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .Team-User-Profile .Designation{
+        font-weight: bold;
+        font-size: 18px;
+    }
+  }
+  

@@ -9,7 +9,10 @@ import {Link} from "react-router-dom";
 const SidebarContent = ({content,serviceCategory,setToggleSidebar}) =>{
     // const screenWidthState = useContext(ScreenWidthContext);
     const handleToggleSidebar =()=>{
-        setToggleSidebar(false);
+        setToggleSidebar((val)=>{
+            document.body.style.overflow = "auto";
+            return !val;
+        });
     }
     return <>
         <div className="Sidebar-Content Grid">

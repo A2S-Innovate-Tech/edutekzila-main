@@ -2,7 +2,7 @@ import './ServiceDropdown.css';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretUp,faCaretDown} from '@fortawesome/free-solid-svg-icons'
-import GetQuoteDialog from './GetQuoteDialog';
+import GetQuoteForm from '../../widgets/GetQuoteForm';
 
 function ServiceDropdown({service}) {
   const [toggleDropdown, setToggleDropdown] = useState(false);
@@ -22,9 +22,14 @@ function ServiceDropdown({service}) {
       unselectable="on"
       onMouseDown={()=>false}
     >
-        {showQuoteDialog&& <GetQuoteDialog setShowQuoteDialog={setShowQuoteDialog}/>}
+        {
+          showQuoteDialog && 
+          <div className="Get-Quote-Dialog-BG">
+            <GetQuoteForm setShowQuoteDialog={setShowQuoteDialog} quoteTitle = {service.title}/>
+          </div>
+        }
         <div className="Dropdown" onClick={handleToggleDropdown}>
-          <div className="P1 Title">{service.title}</div>
+          <div className="P1 Title">{service.titleHtml}</div>
           <div className="Icon">
             <FontAwesomeIcon icon={ toggleDropdown ? faCaretUp : faCaretDown } size="lg"/>
           </div>

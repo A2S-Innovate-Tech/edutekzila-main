@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/edutekzila-main/static/css/main.0f61e1da.chunk.css",
-    "main.js": "/edutekzila-main/static/js/main.0550a2a9.chunk.js",
-    "main.js.map": "/edutekzila-main/static/js/main.0550a2a9.chunk.js.map",
-    "runtime-main.js": "/edutekzila-main/static/js/runtime-main.561c4f5e.js",
-    "runtime-main.js.map": "/edutekzila-main/static/js/runtime-main.561c4f5e.js.map",
+    "main.css": "/edutekzila-main/static/css/main.8beeb4fc.chunk.css",
+    "main.js": "/edutekzila-main/static/js/main.9a74d168.chunk.js",
+    "main.js.map": "/edutekzila-main/static/js/main.9a74d168.chunk.js.map",
+    "runtime-main.js": "/edutekzila-main/static/js/runtime-main.26e1234f.js",
+    "runtime-main.js.map": "/edutekzila-main/static/js/runtime-main.26e1234f.js.map",
     "static/js/2.79e85d66.chunk.js": "/edutekzila-main/static/js/2.79e85d66.chunk.js",
     "static/js/2.79e85d66.chunk.js.map": "/edutekzila-main/static/js/2.79e85d66.chunk.js.map",
-    "static/js/3.4d95a63e.chunk.js": "/edutekzila-main/static/js/3.4d95a63e.chunk.js",
-    "static/js/3.4d95a63e.chunk.js.map": "/edutekzila-main/static/js/3.4d95a63e.chunk.js.map",
+    "static/js/3.b259da7a.chunk.js": "/edutekzila-main/static/js/3.b259da7a.chunk.js",
+    "static/js/3.b259da7a.chunk.js.map": "/edutekzila-main/static/js/3.b259da7a.chunk.js.map",
     "index.html": "/edutekzila-main/index.html",
-    "static/css/main.0f61e1da.chunk.css.map": "/edutekzila-main/static/css/main.0f61e1da.chunk.css.map",
+    "static/css/main.8beeb4fc.chunk.css.map": "/edutekzila-main/static/css/main.8beeb4fc.chunk.css.map",
     "static/js/2.79e85d66.chunk.js.LICENSE.txt": "/edutekzila-main/static/js/2.79e85d66.chunk.js.LICENSE.txt",
     "static/media/index.css": "/edutekzila-main/static/media/Voyager.8053b152.otf",
     "static/media/androids.a78a16ff.png": "/edutekzila-main/static/media/androids.a78a16ff.png",
@@ -29,9 +29,9 @@
     "static/media/wearables.d49fb90c.png": "/edutekzila-main/static/media/wearables.d49fb90c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.561c4f5e.js",
+    "static/js/runtime-main.26e1234f.js",
     "static/js/2.79e85d66.chunk.js",
-    "static/css/main.0f61e1da.chunk.css",
-    "static/js/main.0550a2a9.chunk.js"
+    "static/css/main.8beeb4fc.chunk.css",
+    "static/js/main.9a74d168.chunk.js"
   ]
 }

@@ -8,7 +8,8 @@
 }
 
 .Blogs-Container .Top-Heading{
-    font-size: 46px
+    font-size: 46px;
+    line-height: 0.7;
 }
 
 .Blogs-Sub-Container{
@@ -80,8 +81,7 @@
 
 @media screen and (min-width: 900px) {
     .Blogs-Container{
-        padding: 40px;
-        padding-right: 130px;
+        padding: 50px 140px 40px 50px;
     }
     .Blogs-Container .Top-Heading{
         font-size: 4vw;

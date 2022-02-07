@@ -1,3 +1,11 @@
+// sidebarContents = {
+//     <SERVICE CATEGORY> : {
+//         <SERVICE TYPE> : [
+//             <SERVICE NAME 1>,
+//             <SERVICE NAME 2>, .....
+//         ]
+//     }
+// }
 const sidebarContents = 
     {
         "Tech Services": {

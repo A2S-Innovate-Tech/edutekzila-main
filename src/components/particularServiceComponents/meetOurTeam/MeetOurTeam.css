@@ -1,0 +1,9 @@
+.Meet-Our-Team>div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Meet-Our-Team{
+    margin-bottom: 70px;
+}

@@ -13,6 +13,7 @@ import {
 import ScreenWidthState from './state/ScreenWidthState';
 import Blogs from './pages/Blogs';
 import SidebarOpen from './components/sidebar/SidebarOpen';
+import ParticularService from './pages/ParticularService';
 
 function App() {
   const [toggleSidebar, setToggleSidebar] = useState(false);
@@ -22,12 +23,14 @@ function App() {
       <ScreenWidthState>
         <Router basename={process.env.PUBLIC_URL}>
           <Navbar />
-          <SidebarOpen toggleSidebar={toggleSidebar}/>
+          <SidebarOpen toggleSidebar={toggleSidebar} setToggleSidebar={setToggleSidebar}/>
           <Sidebar setToggleSidebar={setToggleSidebar} toggleSidebar={toggleSidebar}/>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/portfolio" element={<Portfolio />} />
             <Route exact path="/blogs" element={<Blogs />} />
+            <Route exact path="/blogs" element={<Blogs />} />
+            <Route exact path=":serviceCategory/:serviceType/:serviceName" element={<ParticularService/>} />
           </Routes>
         </Router>
       </ScreenWidthState>

@@ -1,18 +1,20 @@
-import './GetQuoteDialog.css';
+import './GetQuoteForm.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTimes} from '@fortawesome/free-solid-svg-icons';
-function GetQuoteDialog({setShowQuoteDialog}) {
+function GetQuoteForm({setShowQuoteDialog, quoteTitle}) {
 
     const exit = ()=>{
         setShowQuoteDialog(false);
     }
     
     return (
-        <div className="Get-Quote-Dialog-BG">
-            <form className="Get-Quote-Dialog">
+            <form className="Get-Quote-Form">
                 <div>
-                    <h2><span className="Light-Blue">Get Quote on</span> App Development</h2>
-                    <FontAwesomeIcon onClick={exit} className="Close-Icon" icon={ faTimes } size="lg"/>
+                    <h2><span className="Light-Blue">Get Quote on</span> {quoteTitle}</h2>
+                    {
+                        setShowQuoteDialog  &&
+                        <FontAwesomeIcon onClick={exit} className="Close-Icon" icon={ faTimes } size="lg"/>
+                    }
                 </div>
                 <div>
                     <input className="Text-Field Name" type="text" placeholder="Name" />
@@ -31,8 +33,7 @@ function GetQuoteDialog({setShowQuoteDialog}) {
                     <button  className="Btn-Submit" type="submit">Submit</button>
                 </div>
             </form>
-        </div>
     );
 }
 
-export default GetQuoteDialog;
+export default GetQuoteForm;

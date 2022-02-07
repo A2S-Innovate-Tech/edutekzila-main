@@ -4,13 +4,12 @@ import ScreenWidthContext from "../../context/ScreenWidthContext";
 import SidebarContent from "./SidebarContent";
 import sidebarContents from "../../sidebarContents";
 
-const SidebarOpen = ({toggleSidebar}) =>{
+const SidebarOpen = ({toggleSidebar, setToggleSidebar}) =>{
     const screenWidthState = useContext(ScreenWidthContext);
-    const [selectedOption, setSelectedOption] = useState(Object.keys(sidebarContents)[0]);
+    const [serviceCategory, setServiceCategory] = useState(Object.keys(sidebarContents)[0]);
     
-    const selectedOptionHandler = (key)=>{
-        console.log(key);
-        setSelectedOption(key);
+    const serviceCategoryHandler = (key)=>{
+        setServiceCategory(key);
     }
 
     return <>
@@ -20,40 +19,20 @@ const SidebarOpen = ({toggleSidebar}) =>{
                 <div className="Left-Menu">
                     <div>
                         {
-                            Object.keys(sidebarContents).map((key)=>{
-                                return <h1 className={(selectedOption===key?"Dark-Blue":"")} onClick = {()=>selectedOptionHandler(key)} key={key}>
-                                    {key.toUpperCase()}
+                            Object.keys(sidebarContents).map((category)=>{
+                                return <h1 className={(category===serviceCategory?"Dark-Blue":"")} onClick = {()=>serviceCategoryHandler(category)} key={category}>
+                                    {category.toUpperCase()}
                                 </h1>
                             })
                         }
                     </div>
-                    {/* <div>
-                        <Link  to = "">
-                            TECH SERVICES
-                        </Link>
-                        <Link  to = "">
-                            EDU SERVICES
-                        </Link>
-                        <Link  to = "">
-                            EXTENSIONS
-                        </Link>
-                        <Link  to = "">
-                            SOLUTIONS
-                        </Link>
-                        <Link  to = "">
-                            COMPANY
-                        </Link>
-                        <Link  to = "">
-                            CAREERS
-                        </Link>
-                    </div> */}
                     <div className="Copyright">
                         <p>All rights reserved</p>
                         <p>Copyright © 2020 EduTekZila. </p>
                     </div>
                 </div>
                 <div className="Right-Options">
-                    <SidebarContent content = {sidebarContents[selectedOption]}/>
+                    <SidebarContent setToggleSidebar={setToggleSidebar} content = {sidebarContents[serviceCategory]} serviceCategory = {serviceCategory}/>
                 </div>
             </div>
         }

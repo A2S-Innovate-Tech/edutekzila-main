@@ -21,3 +21,30 @@
 .Family-Voyager{
   font-family: "Voyager";
 }
+
+/* For Paragraphs (Slightly large text size)*/
+.P1{
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* For Paragraphs (small text size)*/
+.P2{
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);  
+}
+
+@media screen and (min-width: 900px){
+
+  .P1{
+      font-weight: bold;
+      font-size: 24px;
+  }
+  .P2{
+      font-weight: bold;
+      font-size: 18px;
+  }
+}

@@ -8,31 +8,36 @@ const services =  [
         "items" : [
             {
                 id: 0,
-                "title" : <div><span className="Light-Blue">App</span> Development</div>,
+                "title" : "App Development",
+                "titleHtml" : <div><span className="Light-Blue">App</span> Development</div>,
                 "description": "Customized application design that fulfil your needs at affordable prices. We developed your applications for any platform whether it is iOS or Android. ",
                 "images" : [AppleImg,AndroidImg,IconicImg,ReactImg]
             },
             {
                 id: 1,
-                "title" : <div><span className="Light-Blue">Web</span> Development</div>,
+                "title" : "Web Development",
+                "titleHtml" : <div><span className="Light-Blue">Web</span> Development</div>,
                 "description": "Customized application design that fulfil your needs at affordable prices. We developed your applications for any platform whether it is iOS or Android. ",
                 "images" : [AppleImg,AndroidImg,IconicImg,ReactImg]
             },
             {
                 id: 2,
-                "title" : <div><span className="Light-Blue">Graphic</span> Development & <span className="Light-Blue">Logo</span> Designing</div>,
+                "title" : "Graphic Development & Logo Designing",
+                "titleHtml" : <div><span className="Light-Blue">Graphic</span> Development & <span className="Light-Blue">Logo</span> Designing</div>,
                 "description": "Customized application design that fulfil your needs at affordable prices. We developed your applications for any platform whether it is iOS or Android. ",
                 "images" : [AppleImg,AndroidImg,IconicImg,ReactImg]
             },
             {
                 id: 3,
-                "title" : <div><span className="Light-Blue">Digital</span> Marketing</div>,
+                "title" : "Digital Marketing",
+                "titleHtml" : <div><span className="Light-Blue">Digital</span> Marketing</div>,
                 "description": "Customized application design that fulfil your needs at affordable prices. We developed your applications for any platform whether it is iOS or Android. ",
                 "images" : [AppleImg,AndroidImg,IconicImg,ReactImg]
             },
             {
                 id: 4,
-                "title" : <div><span className="Light-Blue">Video</span> Editing</div>,
+                "title" : "Video Editing",
+                "titleHtml" : <div><span className="Light-Blue">Video</span> Editing</div>,
                 "description": "Customized application design that fulfil your needs at affordable prices. We developed your applications for any platform whether it is iOS or Android. ",
                 "images" : [AppleImg,AndroidImg,IconicImg,ReactImg]
             }
@@ -43,25 +48,29 @@ const services =  [
         "items" : [
             {
                 id: 5,
-                "title" : <div><span className="Light-Blue">Training</span> Courses</div>,
+                "title" : "Training Courses",
+                "titleHtml" : <div><span className="Light-Blue">Training</span> Courses</div>,
                 "description": "Customized application design that fulfil your needs at affordable prices. We developed your applications for any platform whether it is iOS or Android. ",
                 "images" : [AppleImg,AndroidImg,IconicImg,ReactImg]
             },
             {
                 id: 6,
-                "title" : <div><span className="Light-Blue">Educational</span> Coaching</div>,
+                "title" : "Educational Coaching",
+                "titleHtml" : <div><span className="Light-Blue">Educational</span> Coaching</div>,
                 "description": "Customized application design that fulfil your needs at affordable prices. We developed your applications for any platform whether it is iOS or Android. ",
                 "images" : [AppleImg,AndroidImg,IconicImg,ReactImg]
             },
             {
                 id: 7,
-                "title" : <div><span className="Light-Blue">Career</span> Counselling</div>,
+                "title" : "Career Counselling",
+                "titleHtml" : <div><span className="Light-Blue">Career</span> Counselling</div>,
                 "description": "Customized application design that fulfil your needs at affordable prices. We developed your applications for any platform whether it is iOS or Android. ",
                 "images" : [AppleImg,AndroidImg,IconicImg,ReactImg]
             },
             {
                 id: 8,
-                "title" : <div><span className="Light-Blue">Content</span> Writing</div>,
+                "title" : "Content Writing",
+                "titleHtml" : <div><span className="Light-Blue">Content</span> Writing</div>,
                 "description": "Customized application design that fulfil your needs at affordable prices. We developed your applications for any platform whether it is iOS or Android. ",
                 "images" : [AppleImg,AndroidImg,IconicImg,ReactImg]
             }

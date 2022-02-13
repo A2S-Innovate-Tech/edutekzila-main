@@ -1,6 +1,6 @@
 import "./Home.css";
 
-import SuccessStories from "../components/homeComponents/successStories/SuccessStories";
+// import SuccessStories from "../components/homeComponents/successStories/SuccessStories";
 import WhoWeAre from "../components/homeComponents/whoWeAre/WhoWeAre";
 import OurExpertise from "../components/homeComponents/ourExpertise/OurExpertise";
 import OurServices from "../components/homeComponents/ourServices/OurServices";
@@ -13,7 +13,7 @@ import ContactUs from "../components/homeComponents/contactUs/ContactUs";
 const Home = () =>{
     
     return <div>
-        <div className="Home-Container">
+        <div className="Home-Container" >
             {/* WE WORK ON 4D PROCESS         */}
             <div className="Home-Sub-Container Top-Heading">
                 <h2>
@@ -31,7 +31,7 @@ const Home = () =>{
             </div>
 
             {/* SUCCESS STORIES   */}
-            <SuccessStories />
+            {/* <SuccessStories /> */}
 
             {/* WHO WE ARE   */}
             <WhoWeAre />

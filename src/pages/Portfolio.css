@@ -7,7 +7,10 @@
 
 .Portfolio-Container .Top-Heading{
     font-size: 4vw;
-    line-height: 0.7;
+    line-height: 1.2;
+}
+.Portfolio-Container .Top-Heading *{
+    margin: 16px 0;
 }
 
 .Portfolio-Container p{
@@ -24,6 +27,6 @@
         padding: 50px 140px 40px 50px;
     }
     .Portfolio-Container .Top-Heading{
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
 }

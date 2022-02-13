@@ -7,9 +7,9 @@ import "./assets/fonts/Voyager.otf";
 import "./assets/fonts/Vision.otf";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <App />
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById('root')
 );
 

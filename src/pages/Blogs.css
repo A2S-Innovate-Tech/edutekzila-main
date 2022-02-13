@@ -9,7 +9,10 @@
 
 .Blogs-Container .Top-Heading{
     font-size: 46px;
-    line-height: 0.7;
+    line-height: 1.2;
+}
+.Blogs-Container .Top-Heading *{
+    margin: 16px 0;
 }
 
 .Blogs-Sub-Container{

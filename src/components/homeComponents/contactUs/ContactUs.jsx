@@ -13,7 +13,7 @@ function ContactUs() {
         <div>
             {
                 screenWidthState.screenWidth<1260
-                ?  <div className="Contact-Us  Contact-Us-Mobile">
+                ?  <div className="Contact-Us  Contact-Us-Mobile" id="ContactUs">
                         {
                             screenWidthState.screenWidth<1260 && <h1 className="Top-Heading">
                                 CONTACT US
@@ -41,7 +41,7 @@ function ContactUs() {
                             
                             <div className="Copyright-Policy">
                                 <p>Privacy Policy  |  Sitemap</p>
-                                <p>Copyright © 2020 EduTekZila. All rights reserved</p>
+                                <p>Copyright © {new Date().getFullYear()} EduTekZila. All rights reserved</p>
                             </div>
                         </div>
                         <div className="Form-Container">

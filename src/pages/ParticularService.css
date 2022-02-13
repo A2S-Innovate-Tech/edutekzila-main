@@ -6,7 +6,11 @@
 
 .Particular-Service-Container .Top-Heading {
     font-size: 5vw;
-    line-height: 0.7;
+    line-height: 1.2;
+}
+
+.Particular-Service-Container .Top-Heading *{
+    margin: 12px 0;
 }
 
 .Particular-Service-Container p{
@@ -28,7 +32,7 @@
 
 @media screen and (min-width: 900px){
     .Particular-Service-Container{
-        padding: 70px 140px 40px 50px;
+        padding: 50px 140px 40px 50px;
     }
 
     .Particular-Service-Container .Top-Heading{

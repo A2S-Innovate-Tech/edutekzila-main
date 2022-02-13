@@ -8,9 +8,9 @@ nav{
     border-bottom: 1px solid #00BCE440;
 }
 
-/* .Nav-Collapse{
-    transition: 100ms ease-in-out;
-} */
+.Nav-Collapse{
+    transition: 400ms ease-in-out;
+}
 
 .Nav-Icon{
     height: 60px;
@@ -51,12 +51,13 @@ nav{
     font-weight: bold;
     font-size: 17px;
     text-align: center;
-    
 }
 
 .Btn-Toggle-Nav{
-    float: right;
-    margin: 16px 16px;
+    /* float: left;
+    margin: 16px 16px; */
+    float: left;
+    margin: 20px 4px 16px 30px;
     background-color: #00BCE440;
     color: white;
     padding: 10px 16px;

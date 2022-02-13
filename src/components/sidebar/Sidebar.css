@@ -1,3 +1,5 @@
+
+
 .Sidebar{
     position: fixed;
     z-index: 10;
@@ -11,17 +13,6 @@
     width: 100px;
     background: linear-gradient(149.27deg, #0A81A4,#1A2742);
 }
-.Sidebar .Close{
-    box-sizing: border-box;
-    padding: 20px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100px;
-    background: linear-gradient(149.27deg, rgba(0, 188, 228, 0.7) -6.57%, rgba(196, 196, 196, 0) 122.53%);
-}
-
 
 .Sidebar button{
     margin: 0 auto;
@@ -34,6 +25,60 @@
     width: 50px;
     text-align: center;
 }
-.Sidebar button img{
+.Sidebar .Btn-Toggle-Sidebar img{
     width: 25px;
+}
+
+.Sidebar .Btn-Whatsapp img{
+    width: 30px;
+}
+
+
+/* .Sidebar-Mobile{
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+} */
+
+/* .Sidebar-Mobile button{
+    margin: 0 auto;
+    background-color: var(--blue-dark);
+    color: white;
+    border-radius: 50%;
+    border: 4px solid var(--blue-light);
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+} */
+
+.Sidebar-Mobile .Btn-Whatsapp{
+    position: fixed;
+    z-index: 10;
+    bottom: 10px;
+    right: 10px;
+    margin: 0 auto;
+    background-color: var(--blue-dark);
+    color: white;
+    border-radius: 50%;
+    border: 4px solid var(--blue-light);
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+/* .Sidebar-Mobile button img{
+    width: 30px;
+} */
+
+.Sidebar-Mobile .Btn-Whatsapp img{
+    width: 45px;
 }

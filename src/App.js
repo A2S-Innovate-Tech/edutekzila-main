@@ -14,6 +14,7 @@ import ScreenWidthState from './state/ScreenWidthState';
 import Blogs from './pages/Blogs';
 import SidebarOpen from './components/sidebar/SidebarOpen';
 import ParticularService from './pages/ParticularService';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
   const [toggleSidebar, setToggleSidebar] = useState(false);
@@ -31,6 +32,7 @@ function App() {
             <Route exact path="/blogs" element={<Blogs />} />
             <Route exact path="/blogs" element={<Blogs />} />
             <Route exact path=":serviceCategory/:serviceType/:serviceName" element={<ParticularService/>} />
+            <Route path='*' exact={true} element={<PageNotFound />} />
           </Routes>
         </Router>
       </ScreenWidthState>

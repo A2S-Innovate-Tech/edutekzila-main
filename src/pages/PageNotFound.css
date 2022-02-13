@@ -1,0 +1,17 @@
+.Page-Not-Found{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Page-Not-Found img{
+    width: 80vw;
+}
+
+@media screen and (min-width: 900px) {
+    .Page-Not-Found img{
+        width: 30vw;
+    }
+}

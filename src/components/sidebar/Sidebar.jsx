@@ -3,7 +3,8 @@ import { useContext } from "react";
 import ScreenWidthContext from "../../context/ScreenWidthContext";
 import SidebarOpenIcon from "../../assets/images/sidebar_open.png"
 import SidebarCloseIcon from "../../assets/images/sidebar_close.png"
-import ChatIcon from "../../assets/images/chat_low.png"
+// import ChatIcon from "../../assets/images/chat_low.png";
+import WhatsappIcon from "../../assets/images/whatsapp.png";
 
 const Sidebar = ({toggleSidebar,setToggleSidebar}) =>{
     const screenWidthState = useContext(ScreenWidthContext);
@@ -16,15 +17,27 @@ const Sidebar = ({toggleSidebar,setToggleSidebar}) =>{
     }
     return <>
         {
-            screenWidthState.screenWidth>=900 &&
-            <div className="Sidebar">
+            screenWidthState.screenWidth>=900
+            ?   <div className="Sidebar">
                     <button onClick={toggleSidebarHandler} className="Btn-Toggle-Sidebar">
                         <img src={toggleSidebar ? SidebarCloseIcon : SidebarOpenIcon}  alt="menu" />
                     </button>
-                    <button onClick={()=>{}} className="Btn-Comments">
-                        <img src={ChatIcon} alt="chat" />
-                    </button>
-            </div>
+                    <form action="https://wa.me/918766330253" target="_blank">
+                        <button className="Btn-Whatsapp">
+                            <img src={WhatsappIcon} alt="Whatsapp" />
+                        </button>
+                    </form>
+                </div>
+            :   <div className="Sidebar-Mobile">
+                    {/* <button onClick={toggleSidebarHandler} className="Btn-Toggle-Sidebar">
+                        <img src={toggleSidebar ? SidebarCloseIcon : SidebarOpenIcon}  alt="menu" />
+                    </button> */}
+                    <form action="https://wa.me/918766330253" target="_blank">
+                        <button className="Btn-Whatsapp">
+                            <img src={WhatsappIcon} alt="Whatsapp" />
+                        </button>
+                    </form>
+                </div>
         }
     </>
 }

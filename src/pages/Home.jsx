@@ -9,6 +9,7 @@ import OurWork from "../components/homeComponents/ourWork/OurWork";
 import ClientsTestinomials from "../components/homeComponents/clientsTestinomials/ClientsTestinomials";
 import OurBlogs from "../components/homeComponents/ourBlogs/OurBlogs";
 import ContactUs from "../components/homeComponents/contactUs/ContactUs";
+import PortfolioCarousel from "../components/homeComponents/portfolioSlider/PortfolioCarousel";
 
 const Home = () =>{
     
@@ -47,6 +48,9 @@ const Home = () =>{
 
             {/* OUR WORK */}
             <OurWork />
+            
+            {/* PORTFOLIO CAROUSEL */}
+            {/* <PortfolioCarousel /> */}
 
             {/* CLIENTS TESTIMONIALS   */}
             <ClientsTestinomials />

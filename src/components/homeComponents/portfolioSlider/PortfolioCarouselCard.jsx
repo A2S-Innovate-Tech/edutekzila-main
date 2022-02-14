@@ -4,7 +4,8 @@ import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
 function PortfolioCarouselCard({project,index,isActive}) {
   return (
-      <div className={"Portfolio-Carousel-Card "+(isActive ? "Active":"InActive")}>
+      <div className="Portfolio-Carousel-Card-Parent">
+        <div className={"Portfolio-Carousel-Card "+(isActive ? "Active":"InActive")}>
           <img src={project.img} alt="project img" />
           <div>
             <p className="Title Margin-B0">{project.title}</p>
@@ -14,6 +15,7 @@ function PortfolioCarouselCard({project,index,isActive}) {
                 <FontAwesomeIcon icon={ faArrowRight } size="lg" />
             </button>
           </div>
+      </div>
       </div>
   );
 }

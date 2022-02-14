@@ -50,7 +50,7 @@ const Home = () =>{
             <OurWork />
             
             {/* PORTFOLIO CAROUSEL */}
-            {/* <PortfolioCarousel /> */}
+            <PortfolioCarousel />
 
             {/* CLIENTS TESTIMONIALS   */}
             <ClientsTestinomials />

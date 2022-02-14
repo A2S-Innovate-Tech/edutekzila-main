@@ -6,9 +6,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./PortfolioCarousel"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 
 const PortfolioCarousel = () => {
     const [activeSlide,setActiveSlide] = useState(0);
@@ -16,15 +17,15 @@ const PortfolioCarousel = () => {
     const settings = {
         infinite: true,
         slidesToScroll: 1,
-        slidesToShow: 1,
+        slidesToShow: 2,
 
-        className: "center slider variable-width",
-        centerMode: true,
+        // className: "center slider variable-width",
+        // centerMode: true,
 
         autoplay: true,
         speed: 1000,
-        autoplaySpeed: 1000,
-        // variableWidth: true,
+        autoplaySpeed: 3000,
+        variableWidth: true,
         adaptiveHeight: true,
 
         arrows: false,
@@ -39,9 +40,6 @@ const PortfolioCarousel = () => {
         //     )
         // }
     };
-    // console.log({activeSlide});
-    // console.log({activeSlide2});
-    console.log(" ");
     return (
         <div className="Home-Sub-Container" id = "Portfolio-Slider">
             <h2 className="Heading">
@@ -49,19 +47,6 @@ const PortfolioCarousel = () => {
             </h2>
             <div >
                 <Slider {...settings} >
-                    {/* <h1 style={{margin: "100px", color:"red"}}>
-                        hello
-                    </h1>
-                    <h1 style={{margin: "100px"}}>
-                        hello
-                    </h1>
-                    <h1 style={{margin: "100px"}}>
-                        hello
-                    </h1>
-                    <h1 style={{margin: "100px"}}>
-                        hello
-                    </h1> */}
-
                 {
                     portfolioProjects.slice(0,4)
                     .map((project,index)=>{
@@ -75,4 +60,3 @@ const PortfolioCarousel = () => {
     )
 }
 export default PortfolioCarousel;
-// return  <PortfolioCarouselCard key={project.id} project={project} index={index} isActive={index===activeSlide}/> 

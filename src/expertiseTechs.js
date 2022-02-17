@@ -2,7 +2,7 @@ import AngularjsImg from "./assets/images/techs/angularjs.png";
 import DockerImg from "./assets/images/techs/docker.png";
 import FlutterImg from "./assets/images/techs/flutter.png";
 import KuberneteImg from "./assets/images/techs/kubernete.png";
-import ReactjsImg from "./assets/images/techs/reactjs.png";
+import ReactImg from "./assets/images/techs/react.png";
 import VuejsImg from "./assets/images/techs/vuejs.png";
 import  FirebaseImg from "./assets/images/techs/firebase.png";
 import  MongoDBIMg from "./assets/images/techs/mongodb.png";
@@ -17,7 +17,7 @@ const techs =  [
     },
     {
         "title": "Reactjs",
-        "img" : ReactjsImg
+        "img" : ReactImg
     },
     {
         "title": "Angularjs",

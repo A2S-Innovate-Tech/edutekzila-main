@@ -6,14 +6,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./PortfolioCarousel"
-import { useState } from 'react';
+// import { useState } from 'react';
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 
 const PortfolioCarousel = () => {
-    const [activeSlide,setActiveSlide] = useState(0);
-    const [activeSlide2,setActiveSlide2] = useState(0);
+    // const [activeSlide,setActiveSlide] = useState(0);
+    // const [activeSlide2,setActiveSlide2] = useState(0);
     const settings = {
         infinite: true,
         slidesToScroll: 1,

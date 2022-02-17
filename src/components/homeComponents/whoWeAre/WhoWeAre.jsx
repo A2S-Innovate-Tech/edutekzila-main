@@ -12,7 +12,7 @@ function WhoWeAre() {
             <p className="P1">We are a service provider firm providing educational and technology related services at best price in the market.</p>
             <p className="P1">We make custom Mobile Apps, Web & Enterprise Solutions for Startups, Enterprises & Mid-Scale Businesses. Our full-stack engineers, frontend engineers and UX/UI designers are ready to take your project to the next level.</p>
             <a className="P1" href="/" style={{textDecoration: 'none', color: "#337089"}}>Read More</a> <br/> <br/>
-            <p className="P2">The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, MindInventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
+            <p className="P2">The top-notch and preeminent company of India with its global presence EduTekZila is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to providing the services that strictly meet the business requirements and catering a wide spectrum of projects.</p>
             
             <div className="Professional-Experience">
                 <CounterWidget img={UsersImg1} label="Professionals" count={30} postCount="+" duration={0}/>

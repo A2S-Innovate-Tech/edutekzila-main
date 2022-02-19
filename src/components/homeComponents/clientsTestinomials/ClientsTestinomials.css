@@ -32,7 +32,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.Clients-Testimonials a{
+.Clients-Testimonials .Many-More{
     text-decoration: none;
     display: flex;
     justify-content: flex-end;

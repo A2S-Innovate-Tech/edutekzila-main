@@ -34,6 +34,16 @@
     padding: 0 12px;
 }
 
+.Client-Profile .User-Icon{
+    height: 24px;
+    width: 24px;
+    padding: 12px 12px;
+    margin-right: 12px;
+    background-color: var(--blue-light);
+    border-radius: 50%;
+
+}
+
 .Client-Profile h4{
     text-align: left;
 }

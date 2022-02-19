@@ -22,7 +22,6 @@ const SidebarContent = ({content,serviceCategory,setToggleSidebar}) =>{
                     return <div className="Grid-Items" key= {entry[0]}>
                         <h2>{entry[0] } </h2>
                         <div className="List-Items">
-                            
                             {
                                 entry[1].map((listItem)=>{
                                     return <div key={listItem} className="List-Item">

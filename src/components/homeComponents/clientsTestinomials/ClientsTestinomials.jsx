@@ -27,7 +27,7 @@ function ClientsTestinomials() {
                     }))
                 }
             </div>
-            <a className="P1" href="/">View all +</a>
+            <p className="P1 Many-More" href="/">and many more...</p>
             
         </div>
     );

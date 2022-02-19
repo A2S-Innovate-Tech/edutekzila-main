@@ -38,7 +38,7 @@ function ServiceDropdown({service}) {
           <p className="P2">
             {service.description}
           </p>
-          <div className="Bottom">
+          <div className="Bottom" style={{justifyContent:(service.images.length === 0 ? "center" : "space-between")}}>
             <div className="Content-Images">
               {
                 service.images.map((image)=>{

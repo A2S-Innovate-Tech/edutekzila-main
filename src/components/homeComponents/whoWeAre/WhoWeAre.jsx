@@ -11,7 +11,7 @@ function WhoWeAre() {
             </h2>
             <p className="P1">We are a service provider firm providing educational and technology related services at best price in the market.</p>
             <p className="P1">We make custom Mobile Apps, Web & Enterprise Solutions for Startups, Enterprises & Mid-Scale Businesses. Our full-stack engineers, frontend engineers and UX/UI designers are ready to take your project to the next level.</p>
-            <a className="P1" href="/" style={{textDecoration: 'none', color: "#337089"}}>Read More</a> <br/> <br/>
+            {/* <a className="P1" href="/" style={{textDecoration: 'none', color: "#337089"}}>Read More</a> <br/> <br/> */}
             <p className="P2">The top-notch and preeminent company of India with its global presence EduTekZila is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to providing the services that strictly meet the business requirements and catering a wide spectrum of projects.</p>
             
             <div className="Professional-Experience">

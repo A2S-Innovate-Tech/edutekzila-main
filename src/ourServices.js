@@ -31,7 +31,7 @@ const services =  [
                 "title" : "Web Development",
                 "titleHtml" : <div><span className="Light-Blue">Web</span> Development</div>,
                 "description": "Our Team of experienced web developers ensure quality and perfection for each client. ",
-                "images" : [HtmlImg,CssImg,JavascriptImg,MongodbImg,ReactImg]
+                "images" : [HtmlImg,CssImg,JavascriptImg,NodejsImg,MongodbImg,ReactImg]
             },
             {
                 id: 2,
@@ -63,7 +63,7 @@ const services =  [
                 id: 5,
                 "title" : "Training Courses",
                 "titleHtml" : <div><span className="Light-Blue">Training</span> Courses</div>,
-                "description": "Training in dynamic fields with best in class course materials and guidancet. ",
+                "description": "Training in dynamic fields with best in class course materials and guidance. ",
                 "images" : []
             },
             {

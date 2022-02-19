@@ -8,8 +8,8 @@ const SidebarOpen = ({toggleSidebar, setToggleSidebar}) =>{
     const screenWidthState = useContext(ScreenWidthContext);
     const [serviceCategory, setServiceCategory] = useState(Object.keys(sidebarContents)[0]);
     
-    const serviceCategoryHandler = (key)=>{
-        setServiceCategory(key);
+    const serviceCategoryHandler = (category)=>{
+        setServiceCategory(category);
     }
 
     return <>

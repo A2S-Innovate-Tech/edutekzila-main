@@ -39,7 +39,7 @@ const sidebarContents =
             ]
         },
 
-        "Edu Services": {
+        "Educatoinal Services": {
             "Edu Service 1" : [
                 "Android Development",
                 "iOS Development",

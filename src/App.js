@@ -30,7 +30,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/portfolio" element={<Portfolio />} />
             <Route exact path="/blogs" element={<Blogs />} />
-            <Route exact path="/blogs" element={<Blogs />} />
+            {/* <Route exact path="/blogs" element={<Blogs />} /> */}
             <Route exact path=":serviceCategory/:serviceType/:serviceName" element={<ParticularService/>} />
             <Route path='*' exact={true} element={<PageNotFound />} />
           </Routes>

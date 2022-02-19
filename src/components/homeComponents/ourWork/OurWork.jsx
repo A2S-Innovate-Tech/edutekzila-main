@@ -10,13 +10,13 @@ function OurWork() {
             <h2 className="Heading">
                 <span className = "Light-Blue">Our</span> Work
             </h2>
-            <div className="Video-Container">
+            {/* <div className="Video-Container">
                 <iframe className="Youtube-Player" title="video"
                     src="https://www.youtube.com/embed/I2wvhRUVNTM"
                     allowFullScreen
                     >
                 </iframe>
-            </div>
+            </div> */}
             <div className="Work-Info">
                 <CounterWidget img={ActiveProjectsImg} label="Active Projects" count={12} duration={2}/>
                 <CounterWidget img={CompletedProjectsImg} label="Completed Projects" count={67} duration={2}/>

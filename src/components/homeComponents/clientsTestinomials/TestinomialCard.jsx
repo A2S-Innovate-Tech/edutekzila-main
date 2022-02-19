@@ -3,7 +3,8 @@ import CommaUpBlue from "../../../assets/images/commas/comma_up_blue.png";
 import CommaUpWhite from "../../../assets/images/commas/comma_up_white.png";
 import CommaDownBlue from "../../../assets/images/commas/comma_down_blue.png";
 import CommaDownWhite from "../../../assets/images/commas/comma_down_white.png";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 function TestinomialCard({testinomial}) {
   return (
     <div className="Testinomial-Card">
@@ -19,7 +20,8 @@ function TestinomialCard({testinomial}) {
             <img src={CommaDownWhite} alt="comma" />
         </div>
         <div className="Client-Profile">
-            <img src={testinomial.img} alt="user pic" />
+            {/* <img src={testinomial.img} alt="user pic" /> */}
+            <FontAwesomeIcon className="User-Icon" icon={faUser}/>
             <div>
                 <h4 className="Margin-T0 Margin-B0">
                     {testinomial.name}

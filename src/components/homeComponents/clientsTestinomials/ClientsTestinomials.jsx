@@ -12,12 +12,12 @@ function ClientsTestinomials() {
                     <span className = "Light-Blue">Clients</span> Testimonials
                 </h2>
                 <div>
-                    <button className="Btn-Testinomials-Previous">
+                    {/* <button className="Btn-Testinomials-Previous">
                         <FontAwesomeIcon icon={ faArrowLeft } />
                     </button>
                     <button  className="Btn-Testinomials-Next">
                         <FontAwesomeIcon icon={faArrowRight } />
-                    </button>
+                    </button> */}
                 </div>
             </div>
             <div className="Testimonials-Container">

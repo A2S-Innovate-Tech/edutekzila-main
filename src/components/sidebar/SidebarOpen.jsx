@@ -28,7 +28,7 @@ const SidebarOpen = ({toggleSidebar, setToggleSidebar}) =>{
                     </div>
                     <div className="Copyright">
                         <p>All rights reserved</p>
-                        <p>Copyright © 2020 EduTekZila. </p>
+                        <p>Copyright © {new Date().getFullYear()} EduTekZila. </p>
                     </div>
                 </div>
                 <div className="Right-Options">

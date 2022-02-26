@@ -51,6 +51,10 @@
     height: 400px;
 }
 
+.Google-Map:hover{
+    cursor: pointer;
+}
+
 .Contact-Us h1{
     margin: 8px 0 16px 0;
     font-size: 46px;

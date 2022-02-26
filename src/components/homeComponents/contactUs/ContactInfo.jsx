@@ -15,7 +15,7 @@ function ContactInfo() {
             </div>
             <div className="Grid-Item">
                 <h3>Our Address</h3>
-                <p>Noida, Uttar Pradesh</p>
+                <p>Sector 34 Noida, Uttar Pradesh</p>
                 <p>+918766330253</p>
             </div>
             <div className="Grid-Item">

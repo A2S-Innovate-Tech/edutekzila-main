@@ -21,6 +21,12 @@
 .Testinomial-Card .Testinomial-Text{
     padding: 0 12px;
     text-align: justify;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
 .Testinomial-Card .Client-Profile{
     display: flex;

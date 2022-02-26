@@ -8,7 +8,7 @@
 // }
 const sidebarContents = 
     {
-        "Tech Services": {
+        "Technical Services": {
             "Mobile App Development" : [
                 "Android Development",
                 "iOS Development",
@@ -39,7 +39,7 @@ const sidebarContents =
             ]
         },
 
-        "Educatoinal Services": {
+        "Educational Services": {
             "Edu Service 1" : [
                 "Android Development",
                 "iOS Development",
@@ -66,113 +66,133 @@ const sidebarContents =
             ],
         },
 
-        "Extensions": {
-            "Extension 1" : [
-                "Android Development",
-                "iOS Development",
-                "Flutter Development",
-                "Swift Development",
-            ],
-            "Extension 2" : [
-                "Frontend Development",
-                "Backend Development",
-                "Full Stack Development",
-                "Swift Development",
-            ],
-            "Extension 3" : [
-                "Ionic Development",
-                "React Native Development",
-            ],
-            "Extension 4" : [
-                "Cloud Management",
-                "Cloud Services",
-            ],
-            "Extension 5" : [
-                "Logo Designing",
-                "UI / UX Designing",
-            ],
-            "Extension 6" : [
-                "Digital Marketing",
-                "Video Editing",
-            ]
-        },
+        
 
         "Solutions": {
-            "Solution 1" : [
-                "Android Development",
-                "iOS Development",
-                "Flutter Development",
-                "Swift Development",
+            "Fintech" : [
             ],
             
-            "Solution 3" : [
-                "Ionic Development",
-                "React Native Development",
+            "E-Commerce" : [
+                
             ],
-            "Solution 4" : [
-                "Cloud Management",
-                "Cloud Services",
+            "Healthcare" : [
+                
             ],
-            "Solution 5" : [
-                "Logo Designing",
-                "UI / UX Designing",
+            "Fitness" : [
+                
             ],
-            "Other Solutions" : [
-                "Digital Marketing",
-                "Video Editing",
-            ]
+            "Food Delivery" : [
+                
+            ],
+            "Real Estate" : [
+                
+            ],
+            "Travel" : [
+            ],
+            "Sports" : [
+                
+            ],
+            "Social Networking" : [
+                
+            ],
+            "Business" : [
+                
+            ],
+            "Education" : [
+                
+            ],
+            "Entertainment" : [
+                
+            ],
         },
 
-        "Company": {
-            "Company 1" : [
-                "Android Development",
-                "iOS Development",
-                "Flutter Development",
-                "Swift Development",
-            ],
-            "Company 2" : [
-                "Frontend Development",
-                "Backend Development",
-                "Full Stack Development",
-                "Swift Development",
-            ],
-            "Company 3" : [
-                "Ionic Development",
-                "React Native Development",
-            ],
-            "Company 4" : [
-                "Logo Designing",
-                "UI / UX Designing",
-            ],
-            "Company 5" : [
-                "Digital Marketing",
-                "Video Editing",
-            ]
-        },
+        
 
-        "Careers": {
-            "Career 1" : [
-                "Android Development",
-                "iOS Development",
-                "Flutter Development",
-                "Swift Development",
-            ],
-            "Career 2" : [
-                "Frontend Development",
-                "Backend Development",
-                "Full Stack Development",
-                "Swift Development",
-            ],
-            "Career 3" : [
-                "Ionic Development",
-                "React Native Development",
-            ],
-            "Career 4" : [
-                "Cloud Management",
-                "Cloud Services",
-            ],
-        },
+        
 
     };
 
 export default sidebarContents;
+
+
+// "Extensions": {
+//     "Extension 1" : [
+//         "Android Development",
+//         "iOS Development",
+//         "Flutter Development",
+//         "Swift Development",
+//     ],
+//     "Extension 2" : [
+//         "Frontend Development",
+//         "Backend Development",
+//         "Full Stack Development",
+//         "Swift Development",
+//     ],
+//     "Extension 3" : [
+//         "Ionic Development",
+//         "React Native Development",
+//     ],
+//     "Extension 4" : [
+//         "Cloud Management",
+//         "Cloud Services",
+//     ],
+//     "Extension 5" : [
+//         "Logo Designing",
+//         "UI / UX Designing",
+//     ],
+//     "Extension 6" : [
+//         "Digital Marketing",
+//         "Video Editing",
+//     ]
+// },
+
+
+// "Company": {
+//     "Company 1" : [
+//         "Android Development",
+//         "iOS Development",
+//         "Flutter Development",
+//         "Swift Development",
+//     ],
+//     "Company 2" : [
+//         "Frontend Development",
+//         "Backend Development",
+//         "Full Stack Development",
+//         "Swift Development",
+//     ],
+//     "Company 3" : [
+//         "Ionic Development",
+//         "React Native Development",
+//     ],
+//     "Company 4" : [
+//         "Logo Designing",
+//         "UI / UX Designing",
+//     ],
+//     "Company 5" : [
+//         "Digital Marketing",
+//         "Video Editing",
+//     ]
+// },
+
+// "Careers": {
+//     "Career 1" : [
+//         "Android Development",
+//         "iOS Development",
+//         "Flutter Development",
+//         "Swift Development",
+//     ],
+//     "Career 2" : [
+//         "Frontend Development",
+//         "Backend Development",
+//         "Full Stack Development",
+//         "Swift Development",
+//     ],
+//     "Career 3" : [
+//         "Ionic Development",
+//         "React Native Development",
+//     ],
+//     "Career 4" : [
+//         "Cloud Management",
+//         "Cloud Services",
+//     ],
+// },

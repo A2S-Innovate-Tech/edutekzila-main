@@ -22,12 +22,14 @@ function ContactUs() {
                         <div className="Info-Container">
                             <ContactForm />
                             <div className="Contact-Info-Mobile">
-                                <img className="Google-Map" src={GoogleMapImg} alt="Google Map" />
+                            <a href="https://goo.gl/maps/3ErnW2qakEsrizsP6" target="_blank" rel="noopener noreferrer">
+                                <img  className="Google-Map" src={GoogleMapImg} alt="Google Map" />
+                            </a>
                                 <ContactInfo />
                             </div>
                             <div className="Copyright-Policy">
                                 <p>Privacy Policy  |  Sitemap</p>
-                                <p>Copyright © 2020 EduTekZila. All rights reserved</p>
+                                <p>Copyright © {new Date().getFullYear()} EduTekZila. All rights reserved</p>
                             </div>
                         </div>
                     </div>
@@ -45,7 +47,9 @@ function ContactUs() {
                             </div>
                         </div>
                         <div className="Form-Container">
-                            <img className="Google-Map" src={GoogleMapImg} alt="Google Map" />
+                            <a href="https://goo.gl/maps/3ErnW2qakEsrizsP6" target="_blank" rel="noopener noreferrer">
+                                <img  className="Google-Map" src={GoogleMapImg} alt="Google Map" />
+                            </a>
                             <ContactForm />
                         </div>
                     </div>

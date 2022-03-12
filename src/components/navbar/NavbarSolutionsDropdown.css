@@ -1,0 +1,53 @@
+#Navbar-Solutions-Dropdown .Title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#Navbar-Solutions-Dropdown .Title:hover{
+    cursor: pointer;
+}
+
+
+#Navbar-Solutions-Dropdown .Content{
+    overflow: auto;
+    position: relative;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 0px 8vw;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+
+#Navbar-Solutions-Dropdown .Content .List-Items{
+    border-left: 4px solid gray;
+}
+
+#Navbar-Solutions-Dropdown .Content .List-Item{
+    display: grid;
+    grid-template-columns: 20px auto;
+    align-items: center;
+}
+
+#Navbar-Solutions-Dropdown .Content .List-Item .Bullet{
+    position: relative;
+    right: 11.6px;
+    background-color: var(--blue-light);
+    border-radius: 100px;
+    padding: 5px;
+    color: var(--blue-dark);
+    font-size: 8px;
+}
+
+#Navbar-Solutions-Dropdown .Content a{
+    margin: 10px 6px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#Navbar-Solutions-Dropdown .Content a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

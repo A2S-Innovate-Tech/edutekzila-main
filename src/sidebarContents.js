@@ -6,113 +6,308 @@
 //         ]
 //     }
 // }
-const sidebarContents = 
+
+// const technicalServices = {
+//     "Mobile App Development" : [
+//         "Android Development",
+//         "iOS Development",
+//         "Flutter Development",
+//         "Swift Development",
+//     ],
+//     "Web Development" : [
+//         "Frontend Development",
+//         "Backend Development",
+//         "Full Stack Development",
+//         "Swift Development",
+//     ],
+//     "Cross Platform Development" : [
+//         "Ionic Development",
+//         "React Native Development",
+//     ],
+//     "Cloud Computing" : [
+//         "Cloud Management",
+//         "Cloud Services",
+//     ],
+//     "Graphic Designing" : [
+//         "Logo Designing",
+//         "UI / UX Designing",
+//     ],
+//     "Other Services" : [
+//         "Digital Marketing",
+//         "Video Editing",
+//     ]
+// };
+
+// const educationalServices = {
+//     "Edu Service 1" : [
+//         "Android Development",
+//         "iOS Development",
+//         "Flutter Development",
+//         "Swift Development",
+//     ],
+//     "Edu Service 2" : [
+//         "Frontend Development",
+//         "Backend Development",
+//         "Full Stack Development",
+//         "Swift Development",
+//     ],
+//     "Edu Service 3" : [
+//         "Ionic Development",
+//         "React Native Development",
+//     ],
+//     "Edu Service 4" : [
+//         "Cloud Management",
+//         "Cloud Services",
+//     ],
+//     "Edu Service 5" : [
+//         "Logo Designing",
+//         "UI / UX Designing",
+//     ],
+// };
+
+// const solutions = {
+//     "Fintech" : [
+//     ],
+    
+//     "E-Commerce" : [
+        
+//     ],
+//     "Healthcare" : [
+        
+//     ],
+//     "Fitness" : [
+        
+//     ],
+//     "Food Delivery" : [
+        
+//     ],
+//     "Real Estate" : [
+        
+//     ],
+//     "Travel" : [
+//     ],
+//     "Sports" : [
+        
+//     ],
+//     "Social Networking" : [
+        
+//     ],
+//     "Business" : [
+        
+//     ],
+//     "Education" : [
+        
+//     ],
+//     "Entertainment" : [
+        
+//     ],
+// };
+
+
+const technicalServices = [
     {
-        "Technical Services": {
-            "Mobile App Development" : [
-                "Android Development",
-                "iOS Development",
-                "Flutter Development",
-                "Swift Development",
-            ],
-            "Web Development" : [
-                "Frontend Development",
-                "Backend Development",
-                "Full Stack Development",
-                "Swift Development",
-            ],
-            "Cross Platform Development" : [
-                "Ionic Development",
-                "React Native Development",
-            ],
-            "Cloud Computing" : [
-                "Cloud Management",
-                "Cloud Services",
-            ],
-            "Graphic Designing" : [
-                "Logo Designing",
-                "UI / UX Designing",
-            ],
-            "Other Services" : [
-                "Digital Marketing",
-                "Video Editing",
-            ]
-        },
+        "Mobile App Development" : [
+            "Android Development",
+            "iOS Development",
+            "Flutter Development",
+            "Swift Development",
+        ]
+    },
+    {
+        "Web Development" : [
+            "Frontend Development",
+            "Backend Development",
+            "Full Stack Development",
+            "Swift Development",
+        ]
+    },
+    {
+        "Cross Platform Development" : [
+            "Ionic Development",
+            "React Native Development",
+        ]
+    },
+    {
+        "Cloud Computing" : [
+            "Cloud Management",
+            "Cloud Services",
+        ]
+    },
+    {
+        "Graphic Designing" : [
+            "Logo Designing",
+            "UI / UX Designing",
+        ]
+    },
+    {
+        "Other Services" : [
+            "Digital Marketing",
+            "Video Editing",
+        ]
+    }
+];
 
-        "Educational Services": {
-            "Edu Service 1" : [
-                "Android Development",
-                "iOS Development",
-                "Flutter Development",
-                "Swift Development",
-            ],
-            "Edu Service 2" : [
-                "Frontend Development",
-                "Backend Development",
-                "Full Stack Development",
-                "Swift Development",
-            ],
-            "Edu Service 3" : [
-                "Ionic Development",
-                "React Native Development",
-            ],
-            "Edu Service 4" : [
-                "Cloud Management",
-                "Cloud Services",
-            ],
-            "Edu Service 5" : [
-                "Logo Designing",
-                "UI / UX Designing",
-            ],
-        },
+const educationalServices = [
+    {
+        "Edu Service 1" : [
+            "Android Development",
+            "iOS Development",
+            "Flutter Development",
+            "Swift Development",
+        ]
+    },
+    {
+        "Edu Service 2" : [
+            "Frontend Development",
+            "Backend Development",
+            "Full Stack Development",
+            "Swift Development",
+        ]
+    },
+    {
+        "Edu Service 3" : [
+            "Ionic Development",
+            "React Native Development",
+        ]
+    },
+    {
+        "Edu Service 4" : [
+            "Cloud Management",
+            "Cloud Services",
+        ]
+    },
+    {
+        "Edu Service 5" : [
+            "Logo Designing",
+            "UI / UX Designing",
+        ]
+    },
+];
+
+const solutions = [
+    "Fintech",
+    "E-Commerce",
+    "Healthcare" ,
+    "Fitness",
+    "Food Delivery" ,
+    "Real Estate",
+    "Travel",
+    "Sports" ,
+    "Social Networking" ,
+    "Business",
+    "Education",
+    "Entertainment",
+];
+
+export {technicalServices,educationalServices,solutions};
+
+// const sidebarContents = 
+//     {
+//         "Technical Services": {
+//             "Mobile App Development" : [
+//                 "Android Development",
+//                 "iOS Development",
+//                 "Flutter Development",
+//                 "Swift Development",
+//             ],
+//             "Web Development" : [
+//                 "Frontend Development",
+//                 "Backend Development",
+//                 "Full Stack Development",
+//                 "Swift Development",
+//             ],
+//             "Cross Platform Development" : [
+//                 "Ionic Development",
+//                 "React Native Development",
+//             ],
+//             "Cloud Computing" : [
+//                 "Cloud Management",
+//                 "Cloud Services",
+//             ],
+//             "Graphic Designing" : [
+//                 "Logo Designing",
+//                 "UI / UX Designing",
+//             ],
+//             "Other Services" : [
+//                 "Digital Marketing",
+//                 "Video Editing",
+//             ]
+//         },
+
+//         "Educational Services": {
+//             "Edu Service 1" : [
+//                 "Android Development",
+//                 "iOS Development",
+//                 "Flutter Development",
+//                 "Swift Development",
+//             ],
+//             "Edu Service 2" : [
+//                 "Frontend Development",
+//                 "Backend Development",
+//                 "Full Stack Development",
+//                 "Swift Development",
+//             ],
+//             "Edu Service 3" : [
+//                 "Ionic Development",
+//                 "React Native Development",
+//             ],
+//             "Edu Service 4" : [
+//                 "Cloud Management",
+//                 "Cloud Services",
+//             ],
+//             "Edu Service 5" : [
+//                 "Logo Designing",
+//                 "UI / UX Designing",
+//             ],
+//         },
 
         
 
-        "Solutions": {
-            "Fintech" : [
-            ],
+//         "Solutions": {
+//             "Fintech" : [
+//             ],
             
-            "E-Commerce" : [
+//             "E-Commerce" : [
                 
-            ],
-            "Healthcare" : [
+//             ],
+//             "Healthcare" : [
                 
-            ],
-            "Fitness" : [
+//             ],
+//             "Fitness" : [
                 
-            ],
-            "Food Delivery" : [
+//             ],
+//             "Food Delivery" : [
                 
-            ],
-            "Real Estate" : [
+//             ],
+//             "Real Estate" : [
                 
-            ],
-            "Travel" : [
-            ],
-            "Sports" : [
+//             ],
+//             "Travel" : [
+//             ],
+//             "Sports" : [
                 
-            ],
-            "Social Networking" : [
+//             ],
+//             "Social Networking" : [
                 
-            ],
-            "Business" : [
+//             ],
+//             "Business" : [
                 
-            ],
-            "Education" : [
+//             ],
+//             "Education" : [
                 
-            ],
-            "Entertainment" : [
+//             ],
+//             "Entertainment" : [
                 
-            ],
-        },
+//             ],
+//         },
 
         
 
         
 
-    };
+//     };
 
-export default sidebarContents;
+// export default sidebarContents;
 
 
 // "Extensions": {

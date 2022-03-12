@@ -15,6 +15,18 @@ import Blogs from './pages/Blogs';
 import SidebarOpen from './components/sidebar/SidebarOpen';
 import ParticularService from './pages/ParticularService';
 import PageNotFound from './pages/PageNotFound';
+import Fintech from './pages/solutions/Fintech';
+import ECommerce from './pages/solutions/ECommerce';
+import Healthcare from './pages/solutions/Healthcare';
+import Fitness from './pages/solutions/Fitness';
+import FoodDelivery from './pages/solutions/FoodDelivery';
+import RealEstate from './pages/solutions/RealEstate';
+import Travel from './pages/solutions/Travel';
+import Sports from './pages/solutions/Sports';
+import SocialNetworking from './pages/solutions/SocialNetworking';
+import Business from './pages/solutions/Business';
+import Educational from './pages/solutions/Education';
+import Entertainment from './pages/solutions/Entertainment';
 
 function App() {
   const [toggleSidebar, setToggleSidebar] = useState(false);
@@ -32,6 +44,23 @@ function App() {
             <Route exact path="/blogs" element={<Blogs />} />
             {/* <Route exact path="/blogs" element={<Blogs />} /> */}
             <Route exact path=":serviceCategory/:serviceType/:serviceName" element={<ParticularService/>} />
+            {/* {
+              solutions.map(solution=>{
+                return <Route key={solution} exact path={"solutions/"+solution} element={<solution />} />
+              })
+            } */}
+            <Route exact path="solutions/fintech" element={<Fintech />} />
+            <Route exact path="solutions/e-commerce" element={<ECommerce />} />
+            <Route exact path="solutions/healthcare" element={<Healthcare />} />
+            <Route exact path="solutions/fitness" element={<Fitness />} />
+            <Route exact path="solutions/food%20delivery" element={<FoodDelivery />} />
+            <Route exact path="solutions/real%20estate" element={<RealEstate />} />
+            <Route exact path="solutions/travel" element={<Travel />} />
+            <Route exact path="solutions/sports" element={<Sports />} />
+            <Route exact path="solutions/social%20networking" element={<SocialNetworking />} />
+            <Route exact path="solutions/business" element={<Business />} />
+            <Route exact path="solutions/education" element={<Educational />} />
+            <Route exact path="solutions/entertainment" element={<Entertainment />} />
             <Route path='*' exact={true} element={<PageNotFound />} />
           </Routes>
         </Router>

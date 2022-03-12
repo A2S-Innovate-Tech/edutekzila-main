@@ -10,7 +10,7 @@ function GetQuoteForm({setShowQuoteDialog, quoteTitle}) {
     return (
             <form className="Get-Quote-Form">
                 <div>
-                    <h2><span className="Light-Blue">Get Quote on</span> {quoteTitle}</h2>
+                    <h2><span className="Light-Blue">Get Quote {quoteTitle&&("on")}</span> {quoteTitle}</h2>
                     {
                         setShowQuoteDialog  &&
                         <FontAwesomeIcon onClick={exit} className="Close-Icon" icon={ faTimes } size="lg"/>

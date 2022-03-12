@@ -1,0 +1,48 @@
+.Solutions-Container{
+    padding: 30px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.Solutions-Container .Top-Heading {
+    font-size: 5vw;
+    line-height: 1.2;
+}
+
+.Solutions-Container .Top-Heading *{
+    margin: 12px 0;
+}
+
+.Solutions-Container p{
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.Solutions-Heading{
+    margin-bottom: 0;
+}
+
+.Solutions-Container .Sub-Container{
+    margin-top: 90px;
+}
+.Solutions-Container .Sub-Container .Heading{
+    font-size: 26px;
+}
+
+
+@media screen and (min-width: 900px){
+    .Solutions-Container{
+        padding: 50px 140px 40px 50px;
+    }
+
+    .Solutions-Container .Top-Heading{
+        font-size: 3vw;
+    }
+    
+    .Solutions-Container .Sub-Container .Heading{
+        font-size: 40px;
+    }
+
+}
+
+

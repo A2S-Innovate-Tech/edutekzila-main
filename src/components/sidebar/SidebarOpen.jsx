@@ -2,14 +2,19 @@ import "./SidebarOpen.css";
 import {  useContext, useState } from "react";
 import ScreenWidthContext from "../../context/ScreenWidthContext";
 import SidebarContent from "./SidebarContent";
-import sidebarContents from "../../sidebarContents";
 
 const SidebarOpen = ({toggleSidebar, setToggleSidebar}) =>{
-    const screenWidthState = useContext(ScreenWidthContext);
-    const [serviceCategory, setServiceCategory] = useState(Object.keys(sidebarContents)[0]);
+    const options = [
+        "Technical Services",
+        "Educational Services",
+        "Solutions"
+    ]
     
-    const serviceCategoryHandler = (category)=>{
-        setServiceCategory(category);
+    const screenWidthState = useContext(ScreenWidthContext);
+    const [selectedOption, setSelectedOption] = useState(options[0]);
+    
+    const changeOption = (option)=>{
+        setSelectedOption(option);
     }
 
     return <>
@@ -19,12 +24,22 @@ const SidebarOpen = ({toggleSidebar, setToggleSidebar}) =>{
                 <div className="Left-Menu">
                     <div>
                         {
-                            Object.keys(sidebarContents).map((category)=>{
-                                return <h1 className={(category===serviceCategory?"Dark-Blue":"")} onClick = {()=>serviceCategoryHandler(category)} key={category}>
-                                    {category.toUpperCase()}
+                            options.map(option=>{
+                                return <h1 className={(selectedOption===option?"Dark-Blue":"")} onClick = {()=>changeOption(option)} >
+                                    {option.toUpperCase()}
                                 </h1>
                             })
                         }
+                        {/* <h1 className={(selectedOption==="Technical Services"?"Dark-Blue":"")} onClick = {()=>changeOption("Technical Services")} >
+                            TECHNICAL SERVICES
+                        </h1>
+                        <h1 className={(selectedOption==="Educational Services"?"Dark-Blue":"")} onClick = {()=>changeOption("Educational Services")} >
+                            EDUCATIONAL SERVICES
+                        </h1>
+                        <h1 className={(selectedOption==="Solutions"?"Dark-Blue":"")} onClick = {()=>changeOption("Solutions")} >
+                            SOLUTIONS
+                        </h1> */}
+                        
                     </div>
                     <div className="Copyright">
                         <p>All rights reserved</p>
@@ -32,7 +47,7 @@ const SidebarOpen = ({toggleSidebar, setToggleSidebar}) =>{
                     </div>
                 </div>
                 <div className="Right-Options">
-                    <SidebarContent setToggleSidebar={setToggleSidebar} content = {sidebarContents[serviceCategory]} serviceCategory = {serviceCategory}/>
+                    <SidebarContent setToggleSidebar={setToggleSidebar} selectedOption = {selectedOption}/>
                 </div>
             </div>
         }

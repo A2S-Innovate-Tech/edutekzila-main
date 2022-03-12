@@ -1,14 +1,14 @@
-import "./ParticularService.css";
+import "./TechnicalServices.css";
 
 import SuccessStories from "../components/homeComponents/successStories/SuccessStories";
 import {  useParams } from "react-router";
-import WhatWeOffer from "../components/particularServiceComponents/whatWeOffer/WhatWeOffer";
-import WhyUs from "../components/particularServiceComponents/whyUs/WhyUs";
+import WhatWeOffer from "../components/TechnicalServicesComponents/whatWeOffer/WhatWeOffer";
+import WhyUs from "../components/TechnicalServicesComponents/whyUs/WhyUs";
 import GetQuoteForm from "../components/widgets/GetQuoteForm";
-import WorkAtAGlance from "../components/particularServiceComponents/workAtAGlance/WorkAtAGlance";
-import MeetOurTeam from "../components/particularServiceComponents/meetOurTeam/MeetOurTeam";
+import WorkAtAGlance from "../components/TechnicalServicesComponents/workAtAGlance/WorkAtAGlance";
+import MeetOurTeam from "../components/TechnicalServicesComponents/meetOurTeam/MeetOurTeam";
 
-const ParticularService = () =>{
+const TechnicalServices = () =>{
     const params  = useParams();
     const serviceName = params.serviceName;
     const serviceType = params.serviceType;
@@ -50,4 +50,4 @@ return <div>
     </div>
 }
 
-export default ParticularService;
+export default TechnicalServices;

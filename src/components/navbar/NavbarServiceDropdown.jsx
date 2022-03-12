@@ -15,22 +15,37 @@ const NavbarServiceDropdown = ({category,services,setToggleNav}) => {
             {
                 expanded&&<div className="Content Grid">
                 {   
-                    Object.entries(services).map((entry)=>{
-                        return <div className="Grid-Items" key= {entry[0]}>
-                            <h3>{entry[0] } </h3>
+                    services.map((service)=>{
+                        return <div className="Grid-Items" key= {Object.entries(service)[0][0]}>
+                            <h3>{Object.entries(service)[0][0] } </h3>
                             <div className="List-Items">
                                 {
-                                    entry[1].map((listItem)=>{
+                                    Object.entries(service)[0][1].map((listItem)=>{
                                         return <div key={listItem} className="List-Item">
                                             <FontAwesomeIcon className="Bullet" icon={ faCircle } size="sm"/>
-                                            {/* <Link onClick={handleToggleSidebar} key={listItem} to={serviceCategory+'/'+entry[0]+'/'+listItem}>{listItem} </Link>   */}
-                                            <Link onClick={()=>{setToggleNav((val)=>!val)}} key={listItem} to={category+'/'+entry[0]+'/'+listItem}>{listItem} </Link>  
+                                            <Link onClick={()=>{setToggleNav((val)=>!val)}} key={listItem} to={category+'/'+Object.entries(service)[0][0]+'/'+listItem}>{listItem} </Link>  
                                         </div>
                                     })
                                 }
                             </div>
                         </div>
                     })
+                    // Object.entries(services).map((entry)=>{
+                    //     return <div className="Grid-Items" key= {entry[0]}>
+                    //         <h3>{entry[0] } </h3>
+                    //         <div className="List-Items">
+                    //             {
+                    //                 entry[1].map((listItem)=>{
+                    //                     return <div key={listItem} className="List-Item">
+                    //                         <FontAwesomeIcon className="Bullet" icon={ faCircle } size="sm"/>
+                    //                         {/* <Link onClick={handleToggleSidebar} key={listItem} to={serviceCategory+'/'+entry[0]+'/'+listItem}>{listItem} </Link>   */}
+                    //                         <Link onClick={()=>{setToggleNav((val)=>!val)}} key={listItem} to={category+'/'+entry[0]+'/'+listItem}>{listItem} </Link>  
+                    //                     </div>
+                    //                 })
+                    //             }
+                    //         </div>
+                    //     </div>
+                    // })
                 
                 }
                 </div>

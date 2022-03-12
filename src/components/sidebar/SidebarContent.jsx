@@ -5,8 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCircle} from '@fortawesome/free-solid-svg-icons';
 import TriangleImg from "../../assets/images/triangle.png";
 import {Link} from "react-router-dom";
+import {technicalServices,educationalServices,solutions} from "../../sidebarContents";
 
-const SidebarContent = ({content,serviceCategory,setToggleSidebar}) =>{
+const SidebarContent = ({selectedOption,setToggleSidebar}) =>{
     // const screenWidthState = useContext(ScreenWidthContext);
     const handleToggleSidebar =()=>{
         setToggleSidebar((val)=>{
@@ -18,22 +19,52 @@ const SidebarContent = ({content,serviceCategory,setToggleSidebar}) =>{
         <div className="Sidebar-Content Grid">
             <img src={TriangleImg} alt="arrow" />
             {   
-                Object.entries(content).map((entry)=>{
-                    return <div className="Grid-Items" key= {entry[0]}>
-                        <h2>{entry[0] } </h2>
+                selectedOption=="Technical Services" &&
+                technicalServices.map((service)=>{
+                    return <div className="Grid-Items" key= {Object.entries(service)[0][0]}>
+                        <h3>{Object.entries(service)[0][0] } </h3>
                         <div className="List-Items">
                             {
-                                entry[1].map((listItem)=>{
+                                Object.entries(service)[0][1].map((listItem)=>{
                                     return <div key={listItem} className="List-Item">
                                         <FontAwesomeIcon className="Bullet" icon={ faCircle } size="sm"/>
-                                        <Link onClick={handleToggleSidebar} key={listItem} to={serviceCategory+'/'+entry[0]+'/'+listItem}>{listItem} </Link>  
+                                        <Link onClick={handleToggleSidebar} key={listItem} to={selectedOption+'/'+Object.entries(service)[0][0]+'/'+listItem}>{listItem} </Link>  
                                     </div>
                                 })
                             }
                         </div>
                     </div>
                 })
-            
+                
+            }
+
+            {   
+                selectedOption=="Educational Services" &&
+                educationalServices.map((service)=>{
+                    return <div className="Grid-Items" key= {Object.entries(service)[0][0]}>
+                        <h3>{Object.entries(service)[0][0] } </h3>
+                        <div className="List-Items">
+                            {
+                                Object.entries(service)[0][1].map((listItem)=>{
+                                    return <div key={listItem} className="List-Item">
+                                        <FontAwesomeIcon className="Bullet" icon={ faCircle } size="sm"/>
+                                        <Link onClick={handleToggleSidebar} key={listItem} to={selectedOption+'/'+Object.entries(service)[0][0]+'/'+listItem}>{listItem} </Link>  
+                                    </div>
+                                })
+                            }
+                        </div>
+                    </div>
+                })
+                
+            }
+            {
+                selectedOption=="Solutions" &&
+                solutions.map((solution)=>{
+                    return <div key={solution} className="List-Item">
+                        <FontAwesomeIcon className="Bullet" icon={ faCircle } size="sm"/>
+                        <Link onClick={handleToggleSidebar} key={solution} to={"Solutions"+'/'+solution}>{solution} </Link>  
+                    </div>
+                }) 
             }
         </div>
     </>

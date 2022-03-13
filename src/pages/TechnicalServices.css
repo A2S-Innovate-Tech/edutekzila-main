@@ -1,0 +1,54 @@
+.Technical-Services-Container{
+    padding: 30px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.Technical-Services-Container .Top-Heading {
+    font-size: 5vw;
+    line-height: 1.2;
+}
+
+.Technical-Services-Container .Top-Heading *{
+    margin: 12px 0;
+}
+
+.Technical-Services-Container p{
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.Technical-Services-Heading{
+    margin-bottom: 0;
+}
+
+.Technical-Services-Sub-Container{
+    margin-top: 90px;
+}
+.Technical-Services-Sub-Container .Heading{
+    font-size: 26px;
+}
+
+
+@media screen and (min-width: 900px){
+    .Technical-Services-Container{
+        padding: 50px 140px 40px 50px;
+    }
+
+    .Technical-Services-Container .Top-Heading{
+        font-size: 3vw;
+    }
+  
+    .Who-We-Are .Info img{
+        height: 44px;
+    }
+    
+    .Technical-Services-Sub-Container .Heading{
+        font-size: 40px;
+    }
+
+}
+
+
+
+

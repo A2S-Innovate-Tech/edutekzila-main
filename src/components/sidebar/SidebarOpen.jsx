@@ -25,7 +25,7 @@ const SidebarOpen = ({toggleSidebar, setToggleSidebar}) =>{
                     <div>
                         {
                             options.map(option=>{
-                                return <h1 className={(selectedOption===option?"Dark-Blue":"")} onClick = {()=>changeOption(option)} >
+                                return <h1 key={option} className={(selectedOption===option?"Dark-Blue":"")} onClick = {()=>changeOption(option)} >
                                     {option.toUpperCase()}
                                 </h1>
                             })

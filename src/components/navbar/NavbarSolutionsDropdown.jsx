@@ -10,6 +10,11 @@ const NavbarSolutionsDropdown = ({solution,setToggleNav}) => {
     const handleSolutionOnclick = () =>{
         setExpanded(!expanded);
     }
+
+    const toggleNav = () =>{
+        // setToggleNav((val)=>!val);
+    }
+
     return (
         <div id="Navbar-Solutions-Dropdown">
             <p className="Title Nav-Item" onClick={handleSolutionOnclick} style={{color: (expanded?"var(--blue-light)": "white")}} >Solutions <FontAwesomeIcon icon={expanded ? faAngleUp : faAngleDown} style={{marginLeft:"6px"}} /></p>
@@ -22,7 +27,7 @@ const NavbarSolutionsDropdown = ({solution,setToggleNav}) => {
                                     solutions.map((solution)=>{
                                         return <div key={solution} className="List-Item">
                                             <FontAwesomeIcon className="Bullet" icon={ faCircle } size="sm"/>
-                                            <Link onClick={()=>{setToggleNav((val)=>!val)}} key={solution} to={"Solutions"+'/'+solution}>{solution} </Link>  
+                                            <Link onClick={toggleNav} key={solution} to={"Solutions"+'/'+solution}>{solution} </Link>  
                                         </div>
                                     }) 
                                 }

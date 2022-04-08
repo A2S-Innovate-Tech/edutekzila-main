@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/edutekzila-main/static/css/main.3c0384ff.chunk.css",
-    "main.js": "/edutekzila-main/static/js/main.e599dec2.chunk.js",
-    "main.js.map": "/edutekzila-main/static/js/main.e599dec2.chunk.js.map",
+    "main.js": "/edutekzila-main/static/js/main.900198fb.chunk.js",
+    "main.js.map": "/edutekzila-main/static/js/main.900198fb.chunk.js.map",
     "runtime-main.js": "/edutekzila-main/static/js/runtime-main.eeac53af.js",
     "runtime-main.js.map": "/edutekzila-main/static/js/runtime-main.eeac53af.js.map",
     "static/css/2.edf0831c.chunk.css": "/edutekzila-main/static/css/2.edf0831c.chunk.css",
@@ -36,6 +36,6 @@
     "static/css/2.edf0831c.chunk.css",
     "static/js/2.951da250.chunk.js",
     "static/css/main.3c0384ff.chunk.css",
-    "static/js/main.e599dec2.chunk.js"
+    "static/js/main.900198fb.chunk.js"
   ]
 }
